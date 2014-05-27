@@ -2,7 +2,7 @@ title: Slide Title
 subtitle: Subtitle
 class: image
 
-![Mobile vs desktop users](image.png)
+![What the...](http://lorempixel.com/800/450/abstract)
 
 ---
 
@@ -27,9 +27,9 @@ Things we'll cover (list should build):
 title: Today
 class: nobackground fill
 
-![Many kinds of devices.](image.png)
+![Moar stuffs](http://lorempixel.com/800/450/abstract)
 
-<footer class="source">source: place source info here</footer>
+<footer class="source">source: lorempixel.com</footer>
 
 ---
 

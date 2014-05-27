@@ -21,7 +21,7 @@
  */
 ::selection {
   color: white;
-  background-color: $brand-yellow;
+  background-color: $brand-green;
   @include text-shadow(none);
 }
 
@@ -56,12 +56,12 @@
 }
 
 body {
-  background: black;
+  background: #222;
 }
 
 slides > slide {
   display: none;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
   color: $gray-3;
   //@include background(linear-gradient(white, white 85%, $gray-1));
@@ -72,6 +72,7 @@ slides > slide {
   margin-top: -$slide-height / 2;
   padding: $slide-top-bottom-padding $slide-left-right-padding;
 
+  border-bottom: 6px solid $brand-green;
   @include border-radius($slide-border-radius);
   //@include box-shadow(5px 5px 20px $gray-4);
   @include transition(all 0.6s ease-in-out);
@@ -125,7 +126,7 @@ slides > slide {
   }
 
   &.dark {
-    background: $gray-4 !important;
+    background: $gray-3;
   }
 
   &:not(.nobackground) {
@@ -138,10 +139,11 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
-      @include background-size($brand-small-icon-size $brand-small-icon-size);
+      background: url(../../images/rei-logo.svg) no-repeat 0 50%;
+      @include background-size($brand-medium-icon-size $brand-medium-icon-size);
       padding-left: $brand-small-icon-size + 10;
-      height: $brand-small-icon-size;
+      width: $brand-medium-icon-size;
+      height: $brand-medium-icon-size;
       line-height: 1.9;
     }
     &:after {
@@ -264,12 +266,11 @@ b {
 }
 
 a {
-  color: $brand-blue-secondary2;
+  color: $brand-green-alt;
   text-decoration: none;
-  border-bottom: 1px solid rgba(42, 124, 223, 0.5);
 
   &:hover {
-    color: black !important;
+    color: $brand-green;
   }
 }
 
@@ -409,41 +410,26 @@ button:not(:disabled):active {
   color: $gray-2;
 }
 
-.blue {
-  color: $brand-blue;
-}
-.blue2 {
-  color: $brand-blue-secondary;
-}
-.blue3 {
-  color: $brand-blue-secondary2;
-}
-.yellow {
-  color: $brand-yellow;
-}
-.yellow2 {
-  color: $brand-yellow-secondary;
-}
-.yellow3 {
-  color: $brand-yellow-secondary2;
-}
 .green {
   color: $brand-green;
 }
-.green2 {
-  color: $brand-green-secondary;
-}
-.green3 {
-  color: $brand-green-secondary2;
+.green-alt {
+    color: $brand-green-alt;
 }
 .red {
   color: $brand-red;
 }
-.red2 {
-  color: $brand-red-secondary;
+.red-alt {
+    color: $brand-red-alt;
 }
-.red3 {
-  color: $brand-red-secondary2;
+.orange {
+  color: $brand-orange;
+}
+.orange-alt {
+    color: $brand-orange-alt;
+}
+.danger {
+  color: $brand-danger;
 }
 .gray {
   color: $gray-1;
@@ -459,10 +445,10 @@ button:not(:disabled):active {
 }
 
 .white {
-  color: white !important;
+  color: #fff;
 }
 .black {
-  color: black !important;
+  color: #000;
 }
 
 .columns-2 {
@@ -488,7 +474,7 @@ table {
   th {
     color: white;
     font-size: 18px;
-    @include background(linear-gradient(top, $brand-blue 40%, $brand-blue-secondary2 80%) no-repeat);
+    @include background(linear-gradient(top, $brand-green 40%, $brand-green-alt 80%) no-repeat);
   }
 
   td, th {
@@ -497,8 +483,8 @@ table {
   }
 
   td.highlight {
-    color: $gray-4;
-    @include background(linear-gradient(top, $brand-yellow 40%, $brand-yellow-secondary2 80%) no-repeat);
+    color: #fff;
+    @include background(linear-gradient(top, $brand-orange 40%, $brand-orange-alt 80%) no-repeat);
   }
 
   &.rows {
@@ -591,7 +577,7 @@ article.smaller {
 
 .prettyprint .str, /* string content */
 .prettyprint .atv { /* a markup attribute value */
-  color: $brand-green-secondary2; //rgb(0, 138, 53);
+  color: $brand-green-alt; //rgb(0, 138, 53);
 }
 .prettyprint .kwd, /* a keyword */
 .prettyprint .tag { /* a markup tag name */
@@ -613,7 +599,7 @@ article.smaller {
 .prettyprint .atn, /* a markup attribute name */
 .prettyprint .dec,
 .prettyprint .var { /* a declaration; a variable name */
-  color: $brand-red-secondary2; //rgb(127, 0, 127);
+  color: $brand-red-alt; //rgb(127, 0, 127);
 }
 .prettyprint .pln {
   color: $gray-4;
@@ -678,7 +664,7 @@ article.smaller {
       &.backdrop {
         //@include background(linear-gradient($gray-1, white 30%, white 60%, $gray-1));
         @include background-image(radial-gradient(50% 50%, #b1dfff 0%,
-                                                  $brand-blue 600px));
+                                                  $brand-green 600px));
       }
 
       &.next {
@@ -824,7 +810,7 @@ article.smaller {
 }
 
 .thank-you-slide {
-  background: $brand-blue !important;
+  background: $gray-3 !important;
   color: white;
 
   h2 {
@@ -884,6 +870,7 @@ aside.gdbar {
 }
 
 .title-slide {
+  background-color: $gray-3;
 
   hgroup {
     bottom: 100px;
@@ -892,7 +879,7 @@ aside.gdbar {
       font-size: 65px;
       line-height: 1.4;
       letter-spacing: -3px;
-      color: $gray-4;
+      color: $gray-1;
     }
 
     h2 {
@@ -903,7 +890,7 @@ aside.gdbar {
 
     p {
       font-size: 20px;
-      color: $gray-3;
+      color: $gray-1;
       line-height: 1.3;
       margin-top: 2em;
     }

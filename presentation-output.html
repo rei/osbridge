@@ -41,25 +41,114 @@ URL: https://code.google.com/p/io-2012-slides
   </hgroup>
 </slide>
 
-{% for slide in slides %}
-<slide {% if slide.class %}class="{{- slide.class -}}"{% endif %} {% if slide.image %}style="background-image: url({{- slide.image -}})"{% endif %}>
-  {% if 'segue' in slide.class %}
+
+<slide class="image" >
+  
+    <hgroup>
+      <h2>Slide Title</h2>
+      <h3>Subtitle</h3>
+    </hgroup>
+    <article ><p><img alt="What the..." src="http://lorempixel.com/800/450/abstract" /></p></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
     <aside class="gdbar"><img src="images/rei-logo.svg"></aside>
     <hgroup class="auto-fadein">
-      <h2>{{- slide.title -}}</h2>
-      <h3>{{- slide.subtitle -}}</h3>
+      <h2>Segue Slide</h2>
+      <h3>Subtitle</h3>
     </hgroup>
-  {% else %}
-    <hgroup>
-      <h2>{{- slide.title -}}</h2>
-      <h3>{{- slide.subtitle -}}</h3>
-    </hgroup>
-    <article {% if slide.content_class %}class="{{- slide.content_class -}}"{% endif %}>
-    {{- slide.content -}}
-    </article>
- {% endif %}
+  
 </slide>
-{% endfor %}
+
+<slide class="big" >
+  
+    <hgroup>
+      <h2>Agenda</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Things we'll cover (list should build):</p>
+<ul class="build">
+<li>Bullet1</li>
+<li>Bullet2</li>
+<li>Bullet3</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="nobackground fill" >
+  
+    <hgroup>
+      <h2>Today</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><img alt="Moar stuffs" src="http://lorempixel.com/800/450/abstract" /></p>
+<footer class="source">source: lorempixel.com</footer></article>
+ 
+</slide>
+
+<slide class="title-slide" >
+  
+    <hgroup>
+      <h2>Big Title Slide</h2>
+      <h3></h3>
+    </hgroup>
+    <article ></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Code Example</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Media Queries are sweet:</p>
+<pre class="prettyprint" data-lang="css">
+@media screen and (max-width: 640px) {
+  #sidebar { display: none; }
+}
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Once more, with JavaScript</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><pre class="prettyprint" data-lang="javascript">
+function isSmall() {
+  return window.matchMedia("(min-device-width: ???)").matches;
+}
+
+function hasTouch() {
+  return Modernizr.touch;
+}
+
+function detectFormFactor() {
+  var device = DESKTOP;
+  if (hasTouch()) {
+    device = isSmall() ? PHONE : TABLET;
+  }
+  return device;
+}
+</pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Centered content</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p>This content should be centered!</p></article>
+ 
+</slide>
+
 
 <slide class="thank-you-slide segue nobackground">
   <aside class="gdbar right"><img src="images/rei-logo.svg"></aside>
