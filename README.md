@@ -9,25 +9,21 @@ Some of the customizations include the title, Analytics tracking ID, speaker
 information (name, social urls, blog), web fonts to load, themes, and other
 general behavior.
 
-### Customizing the `#io12` hash
-
-The bottom of the slides include `#io12` by default. If you'd like to change
-this, please update the variable `$social-tags: '#io12';` in
-[`/theme/scss/default.scss`](theme/scss/default.scss).
-
-See the next section on "Editing CSS" before you go editing things.
-
-## Editing the config
-
-Various slide configuration information, e.g., the presenter info, can be found in the 
-`slide_config.js` file. Changes are loaded at runtime.
+Changes are loaded at runtime.
 
 ## Editing the slides
 
 Slides are stored in `scripts/md/slides.md`. Each slide is separated by a `---`. To render
-the slides, run `./render.py`. 
+the slides, run `./render.py`. This will run the slide contents through the 
+`scripts/md/base.html` template and update `presentation-output.html`, which can be 
+access directly, or served with `serve.sh`. (See below.)
 
-See the `scripts/md/README.md` for more information on render dependencies.
+Please note that Python, jinja2, and markdown are required. The easiest way to install 
+these on Windows is: 
+
+1. Install Python
+2. Install pip
+3. Install jinja2 and markdown with pip
 
 ## Editing CSS
 
