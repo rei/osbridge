@@ -338,8 +338,8 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       var p = presenters[0];
 
       var presenterTitle = [p.name];
-      if (p.company) {
-        presenterTitle.push(p.company);
+      if (p.title) {
+        presenterTitle.push(p.title);
       }
       html = presenterTitle.join(' - ') + '<br>';
 
@@ -363,7 +363,8 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       }
     } else {
       for (var i = 0, p; p = presenters[i]; ++i) {
-        html.push(p.name + ' - ' + p.company);
+        var presenterText = p.title ? p.name + ' - ' + p.title : p.name
+        html.push(presenterText);
       }
       html = html.join('<br>');
       if (dataConfigContact) {

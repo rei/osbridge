@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Presentation Template',
-    subtitle: 'Yeah, we got subtitles',
+    title: 'Platform // Front-End Development',
+    subtitle: 'Front-End Development on the REI.com Platform Team',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
@@ -21,20 +21,27 @@ var SLIDE_CONFIG = {
   },
 
   // Author information
-  presenters: [{
-    name: 'David Baughman',
-    company: 'Front-end Developer<br>REI Digital Retail',
-    gplus: 'http://plus.google.com/111036559562005544421',
-    twitter: '@dmbaughman',
-    www: 'http://dmbaughman.com',
-    github: 'http://github.com/dmbaughman'
-  }/*, {
+  presenters: [
+  {
+    name: 'Andrew Gatlabyan',
+    title: 'Sr. Front-End Developer'
+  },
+  {
+    name: 'Scott Flesher',
+    title: 'Front-End Developer'
+  },
+  {
+    name: 'Rob McGuire-Dale',
+    title: 'Front-end Developer',
+  }
+  /*, {
     name: 'Second Name',
-    company: 'Job Title, Google',
+    title: 'Job Title, Google',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://www.you.com',
     github: 'http://github.com/you'
-  }*/]
+  } */
+  ]
 };
 
