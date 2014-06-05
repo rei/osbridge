@@ -2,12 +2,12 @@ title: Slide Title
 subtitle: Subtitle
 class: image
 
-![What the...](http://lorempixel.com/800/450/abstract)
+![What the...](http://lorempixel.com/600/450/abstract)
 
 ---
 
-title: Segue Slide
-subtitle: Subtitle
+title: Recent Accomplishments
+subtitle: What we've done so far...
 class: segue dark nobackground
 
 ---
