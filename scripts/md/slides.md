@@ -1,20 +1,46 @@
 title: Agenda
-class: big
-build_lists: true
 
 - Mission & Vision
 - Services we provide
 - Projects
-    - Analytics (Drew)
-    - Build System (Rob)
-    - Mobile / Arch. Support (Scott)
+    - Analytics
+    - Build System
+    - Mobile / Architecture Support
 - Conclusion
 
 ---
+title:      Vision & Mission
+subtitle:   "Fast for the user, fast for the developer"
+class:      segue dark nobackground
 
+---
 title: Vision & Mission
-subtitle: "Fast for the user, fast for the developer"
-class: segue dark nobackground
+subtitle: "Fast for the user" == A great user experience.
+
+- Lightweight & Fast
+- Few errors as possible
+- Analytics                 <!-- understand our users -->
+- 3rd-party management      <!-- TMS, different standards of quality -->
+
+---
+title: Vision & Mission
+subtitle: "Fast for the developer" == A great, long-term developer experience
+
+- Organized & documented
+- Modularized & reusable
+- Readable                  <!-- code style guides -->
+- Maintainable & debuggable <!-- source maps, logging -->
+
+---
+title: Vision & Mission
+subtitle: User AND Developer Experience
+
+Stability
+Unit testing
+Linting
+Error checking
+Metrics, visualization
+Trainings/communication
 
 ---
 
