@@ -98,12 +98,19 @@ class: segue dark nobackground
 
 title: Mobile / Architecture Support
 class: big
-build_lists: true
+build_lists: false
+
+- Mobile Architecture Support
+    - 3POC (3 Pillars of Creation) Global Template Pattern
+    - Common Base Style Integration Support
+    - Mobile Header Integration Support
+    - Global Navigation Coordination
+- Test and Target / CQ / JBoss Integration
+- Adobe AEM POC Support
 
 ---
 
 title: Conclusions
-Subtitle:
 class: segue dark nobackground
 
 ---
@@ -111,3 +118,9 @@ class: segue dark nobackground
 title: Conclusions
 class: big
 build_lists: true
+
+How Can Management Support Us?
+
+- Clear "What"-Centric Problem Statements
+- Trust
+- Space
