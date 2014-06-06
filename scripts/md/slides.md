@@ -1,21 +1,20 @@
 title: Agenda
 class: big
-build_lists: false
+build_lists: true
 
-- Mission / Vision
-- Services We Provide
-- Analytics (Drew)
-- Build System (Rob)
-- Mobile / Arch. Support (Scott)
+- Mission & Vision
+- Services we provide
+- Projects
+    - Analytics (Drew)
+    - Build System (Rob)
+    - Mobile / Arch. Support (Scott)
 - Conclusion
 
 ---
 
 title: Vision & Mission
-subtitle: Subtitle
-class: image
-
-![What the...](http://lorempixel.com/600/450/abstract)
+subtitle: "Fast for the user, fast for the developer"
+class: segue dark nobackground
 
 ---
 
