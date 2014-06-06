@@ -72,9 +72,39 @@ class: segue dark nobackground
 
 ---
 
-title: Analytics
+title: New Analytics Framework
 class: big
 build_lists: true
+
+- Architect a system that was more loosely coupled
+    - works with REI's implementation of Site Cat
+    - works with whichever tag management system system
+- Build in a modular and unit testable manner
+- Write enough documentation
+
+---
+
+title: Tag Management
+class: big
+build_lists: true
+
+- Research and evalutation of TMS vendors
+- Project Refine Requirements
+- Participant in TMS Governance
+
+---
+
+title: Analytics Support
+class: big
+build_lists: true
+
+- Implemented tagging for REI Camp Quiz
+- Fixed broken implementation of analytics on REI.com Mobile Interstitial Page
+- Mobile POC Analytics
+    - Product Page
+    - Search Results Page
+    - Order Confirmation Page
+    - Basic Page
 
 ---
 
