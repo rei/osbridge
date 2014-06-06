@@ -75,11 +75,12 @@ title: New Analytics Framework
 class: big
 build_lists: true
 
-- Architect a system that was more loosely coupled
+- Architect a system that is more loosely coupled
     - works with REI's implementation of Site Cat
-    - works with whichever tag management system system
-- Build in a modular and unit testable manner
-- Write enough documentation
+    - works with whichever tag management system
+    - works with content from CQ
+- Build it in a modular and unit testable manner
+- Write documentation
 
 ---
 
@@ -88,7 +89,7 @@ class: big
 build_lists: true
 
 - Research and evalutation of TMS vendors
-- Project Refine Requirements
+- Refine project requirements and plan
 - Participant in TMS Governance
 
 ---
@@ -99,11 +100,12 @@ build_lists: true
 
 - Implemented tagging for REI Camp Quiz
 - Fixed broken implementation of analytics on REI.com Mobile Interstitial Page
-- Mobile POC Analytics
+- Mobile Analytics
     - Product Page
     - Search Results Page
     - Order Confirmation Page
     - Basic Page
+- Adobe POC Analytics
 
 ---
 
