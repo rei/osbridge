@@ -1,4 +1,17 @@
-title: Slide Title
+title: Agenda
+class: big
+build_lists: false
+
+- Mission / Vision
+- Services We Provide
+- Analytics (Drew)
+- Build System (Rob)
+- Mobile / Arch. Support (Scott)
+- Conclusion
+
+---
+
+title: Vision & Mission
 subtitle: Subtitle
 class: image
 
@@ -6,73 +19,95 @@ class: image
 
 ---
 
-title: Recent Accomplishments
-subtitle: What we've done so far...
+title: Services We Provide
+Subtitle:
 class: segue dark nobackground
 
 ---
 
-title: Agenda
+title: Services We Provide
 class: big
 build_lists: true
 
-Things we'll cover (list should build):
+Overview:
 
-- Bullet1
-- Bullet2
-- Bullet3
-
----
-
-title: Today
-class: nobackground fill
-
-![Moar stuffs](http://lorempixel.com/800/450/abstract)
-
-<footer class="source">source: lorempixel.com</footer>
+- Provide architectural recommendations for new work.
+- Help teams/individuals integrate projects and prototypes into rei.com.
+- Support work estimation for upcoming initiatives.
+- Provide troubleshooting support.
+- Quick turnaround on feature requests.
+- Training and support.
+- Tea and coffee advice, and support.
 
 ---
 
-title: Big Title Slide
-class: title-slide
+title: Services We Provide
+class: big
+build_lists: true
+
+Quick Turnaround Examples:
+
+- Dividend lookup
+- A/B tests for Product
+- Mobile pages
 
 ---
 
-title: Code Example
+title: Services We Provide
+class: big
+build_lists: true
 
-Media Queries are sweet:
+Training Examples:
 
-<pre class="prettyprint" data-lang="css">
-@media screen and (max-width: 640px) {
-  #sidebar { display: none; }
-}
-</pre>
-
----
-
-title: Once more, with JavaScript
-
-<pre class="prettyprint" data-lang="javascript">
-function isSmall() {
-  return window.matchMedia("(min-device-width: ???)").matches;
-}
-
-function hasTouch() {
-  return Modernizr.touch;
-}
-
-function detectFormFactor() {
-  var device = DESKTOP;
-  if (hasTouch()) {
-    device = isSmall() ? PHONE : TABLET;
-  }
-  return device;
-}
-</pre>
+- Code Modularization
+- Front-End Build System
+- Unit testing
+- Dependency management
 
 ---
 
-title: Centered content
-content_class: flexbox vcenter
+title: Analytics
+Subtitle: Andrew Gat.
+class: segue dark nobackground
 
-This content should be centered!
+---
+
+title: Analytics
+class: big
+build_lists: true
+
+---
+
+title: Front-End Build System
+Subtitle: Rob McG.-D.
+class: segue dark nobackground
+
+---
+
+title: Front-End Build System
+class: big
+build_lists: true
+
+---
+
+title: Mobile / Architecture Support
+Subtitle: Scott Flesher
+class: segue dark nobackground
+
+---
+
+title: Mobile / Architecture Support
+class: big
+build_lists: true
+
+---
+
+title: Conclusions
+Subtitle:
+class: segue dark nobackground
+
+---
+
+title: Conclusions
+class: big
+build_lists: true
