@@ -66,31 +66,6 @@ Overview:
 
 ---
 
-title: Services We Provide
-class: big
-build_lists: true
-
-Quick Turnaround Examples:
-
-- Dividend lookup
-- A/B tests for Product
-- Mobile pages
-
----
-
-title: Services We Provide
-class: big
-build_lists: true
-
-Training Examples:
-
-- Code Modularization
-- Front-End Build System
-- Unit testing
-- Dependency management
-
----
-
 title: Analytics
 Subtitle: Andrew Gat.
 class: segue dark nobackground
