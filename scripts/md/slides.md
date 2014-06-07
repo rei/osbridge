@@ -18,32 +18,28 @@ title: Vision & Mission
 subtitle: "Fast for the user" == A great user experience.
 
 - Lightweight & Fast
-- Few errors as possible
-- Analytics                 <!-- understand our users -->
-- 3rd-party management      <!-- TMS, different standards of quality -->
+- Few errors as possible    <!-- Unit testing, error checking, linting -->
+- Analytics                 <!-- to understand our users -->
+- 3rd-party management      <!-- different standards of quality, TMS -->
 
 ---
 title: Vision & Mission
-subtitle: "Fast for the developer" == A great, long-term developer experience
+subtitle: "Fast for the developer" == A great developer experience
+
+Maintainable
 
 - Organized & documented
 - Modularized & reusable
 - Readable                  <!-- code style guides -->
-- Maintainable & debuggable <!-- source maps, logging -->
+- Debuggable                <!-- source maps, logging -->
+
+<br>
+
+- Unit testing, error checking, linting
+- Stability metrics & visualization
+- Trainings
 
 ---
-title: Vision & Mission
-subtitle: User AND Developer Experience
-
-Stability
-Unit testing
-Linting
-Error checking
-Metrics, visualization
-Trainings/communication
-
----
-
 title: Services We Provide
 Subtitle:
 class: segue dark nobackground
