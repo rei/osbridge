@@ -1,4 +1,4 @@
-#! /bin/env bash
+#! /bin/bash
 # Render slides
 
 cd scripts/md/
