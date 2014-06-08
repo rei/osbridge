@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Platform // Front-End Development',
+    title: 'Platform //<br>Front-End Development',
     subtitle: 'Front-End Development on the REI.com Platform Team',
     //eventInfo: {
     //  title: 'Google I/O',
