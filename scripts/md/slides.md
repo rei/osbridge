@@ -15,29 +15,27 @@ class:      segue dark nobackground
 
 ---
 title: Vision & Mission
-subtitle: "Fast for the user" == A great user experience.
+subtitle: "Fast for the user" = A great user experience
 
-- Lightweight & Fast
-- Few errors as possible    <!-- Unit testing, error checking, linting -->
-- Analytics                 <!-- to understand our users -->
-- 3rd-party management      <!-- different standards of quality, TMS -->
+Ensuring our software is...
+
+- Fast
+- lightweight
+- Stable                    <!-- Unit testing, error checking, TMS -->
+- Relevant                  <!-- Analytics to understand our users -->
 
 ---
 title: Vision & Mission
-subtitle: "Fast for the developer" == A great developer experience
+subtitle: "Fast for the developer" = A great developer experience
 
-Maintainable
+Ensuring our code is...
 
-- Organized & documented
-- Modularized & reusable
-- Readable                  <!-- code style guides -->
-- Debuggable                <!-- source maps, logging -->
-
-<br>
-
-- Unit testing, error checking, linting
-- Stability metrics & visualization
-- Trainings
+- Organized & documented        <!-- manual/automated docs -->
+- Modularized & reusable        <!-- package management -->
+- Standardized & readable       <!-- code style guides -->
+- Tested & error checked        <!-- Unit testing, lining -->
+- Debuggable                    <!-- source maps, build tools -->
+- Stable & visualized           <!-- metrics collection & logging -->
 
 ---
 title: Services We Provide
