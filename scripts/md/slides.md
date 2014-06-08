@@ -106,7 +106,13 @@ class: segue dark nobackground
 ---
 
 title: Front-End Build System
-build_lists: true
+subtitle: Modernizing front-end programming since 2014
+
+- Modularization        <!-- JS and Less, code reuse -->
+- Optimization          <!-- Compilation -->
+- Error checking        <!-- Don't ship errors -->
+- Unit testing          <!-- Ensure correctness -->
+- Dependency management <!-- Responsible versioning, traceability -->
 
 ---
 
