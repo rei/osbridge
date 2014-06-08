@@ -11,9 +11,13 @@ import re
 import jinja2
 import markdown
 
+SLIDE_TMPL_PATH = './base.html'
+SLIDE_MD_PATH   = './slides.md'
+OUT_PATH        = '../../index.html'
+
 def process_slides():
-  with codecs.open('../../presentation-output.html', 'w', encoding='utf8') as outfile:
-    md = codecs.open('./slides.md', encoding='utf8').read()
+  with codecs.open(OUT_PATH, 'w', encoding='utf8') as outfile:
+    md = codecs.open(SLIDE_MD_PATH, encoding='utf8').read()
     md_slides = re.split(r'\r?\n---\r?\n',md)
     print 'Compiled %s slides.' % len(md_slides)
 
@@ -35,7 +39,7 @@ def process_slides():
 
       slides.append(slide)
 
-    template = jinja2.Template(open('base.html').read())
+    template = jinja2.Template(open(SLIDE_TMPL_PATH).read())
 
     outfile.write(template.render(locals()))
 

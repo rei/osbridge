@@ -72,7 +72,7 @@ The slides can be run locally from `file://` making development easy :)
 
 If at some point you should need a web server, run [`serve.sh`](serve.sh), and
 access
-[`http://localhost:8000/presentation-output.html`](http://localhost:8000/presentation-output.html).
+[`http://localhost:8000/template.html`](http://localhost:8000/template.html).
 
 You can also specify a custom port:
 
