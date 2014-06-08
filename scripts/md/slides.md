@@ -108,11 +108,22 @@ class: segue dark nobackground
 title: Front-End Build System
 subtitle: Modernizing front-end programming since 2014
 
-- Modularization        <!-- JS and Less, code reuse -->
-- Optimization          <!-- Compilation -->
-- Error checking        <!-- Don't ship errors -->
-- Unit testing          <!-- Ensure correctness -->
-- Dependency management <!-- Responsible versioning, traceability -->
+- Modularization            <!-- JS and Less, code reuse -->
+- Optimization              <!-- Compilation -->
+- Error checking            <!-- Don't ship errors -->
+- Unit testing              <!-- Ensure correctness -->
+- Dependency management     <!-- Responsible versioning, traceability -->
+
+---
+
+title: Front-End Build System
+subtitle: Developer enablement
+
+<!-- Allows developers to do more -->
+
+- Mobile Architecture       <!-- 2/3 pillars -->
+- Global style framework    <!-- Less -->
+- Analytics                 <!-- Helps Drew do his thang -->
 
 ---
 
