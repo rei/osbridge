@@ -113,17 +113,43 @@ subtitle: Modernizing front-end programming since 2014
 - Error checking            <!-- Don't ship errors -->
 - Unit testing              <!-- Ensure correctness -->
 - Dependency management     <!-- Responsible versioning, traceability -->
+- Analysis & visualization  <!-- Stability -->
+
+---
+
+title: Front-End Build System
+subtitle: Importance of Modularity and Dependency Management
+build_lists: true
+
+<!-- On top of developer sanity... -->
+
+Case study: Home Page on Mobile     <!-- Typical, non-FEBS page -->
+
+- 88% unused CSS + 17% uncompressed JS = 480 KB unnecessary text <!-- as of May 2014 -->
+- 2-7% conversion loss per second load time
+- REI made $15.8 million * 4.6% conversion (FY2013, mobile) => $0.32 - $1.1 million/year/sec in lost sales
+- Per US average mobile speeds, 480 KB => 0.6 - 2 sec
+- Lost $0.25 - $2.25 **million** last year on mobile
+
+<!--
+- US average 3G speed 244 KB/s
+    - 480 KB ~=> 2 sec ~=> 4-14% conversion loss for 3G
+- US average 4G speed 756 KB/s
+    480 KB ~=> 0.6 sec ~=> 1.3-4.4% conversion loss for 4G
+-->
 
 ---
 
 title: Front-End Build System
 subtitle: Developer enablement
+build_lists: true
 
 <!-- Allows developers to do more -->
 
-- Mobile Architecture       <!-- 2/3 pillars -->
 - Global style framework    <!-- Less -->
+- Dynamic style guide       <!-- Less -->
 - Analytics                 <!-- Helps Drew do his thang -->
+- Mobile Architecture       <!-- 2/3 pillars -->
 
 ---
 
