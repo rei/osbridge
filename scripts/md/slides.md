@@ -44,7 +44,6 @@ class: segue dark nobackground
 ---
 
 title: Services We Provide
-class: big
 build_lists: true
 
 Overview:
@@ -66,7 +65,6 @@ class: segue dark nobackground
 ---
 
 title: New Analytics Framework
-class: big
 build_lists: true
 
 - Architect a system that is more loosely coupled
@@ -79,7 +77,6 @@ build_lists: true
 ---
 
 title: Tag Management
-class: big
 build_lists: true
 
 - Research and evalutation of TMS vendors
@@ -89,7 +86,6 @@ build_lists: true
 ---
 
 title: Analytics Support
-class: big
 build_lists: true
 
 - Implemented tagging for REI Camp Quiz
@@ -110,7 +106,6 @@ class: segue dark nobackground
 ---
 
 title: Front-End Build System
-class: big
 build_lists: true
 
 ---
@@ -122,7 +117,6 @@ class: segue dark nobackground
 ---
 
 title: Mobile / Architecture Support
-class: big
 build_lists: false
 
 - Mobile Architecture Support
@@ -141,7 +135,6 @@ class: segue dark nobackground
 ---
 
 title: Conclusions
-class: big
 build_lists: true
 
 How Can Management Support Us?
