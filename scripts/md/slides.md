@@ -39,7 +39,6 @@ Ensuring our code is...
 
 ---
 title: Services We Provide
-Subtitle:
 class: segue dark nobackground
 
 ---
@@ -61,7 +60,7 @@ Overview:
 ---
 
 title: Analytics
-Subtitle: Andrew Gat.
+subtitle: Drew Gat.
 class: segue dark nobackground
 
 ---
@@ -105,7 +104,7 @@ build_lists: true
 ---
 
 title: Front-End Build System
-Subtitle: Rob McG.-D.
+subtitle: Maturing the Front-End
 class: segue dark nobackground
 
 ---
@@ -117,7 +116,7 @@ build_lists: true
 ---
 
 title: Mobile / Architecture Support
-Subtitle: Scott Flesher
+subtile: Scott Flesher
 class: segue dark nobackground
 
 ---
