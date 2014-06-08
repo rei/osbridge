@@ -1,0 +1,23 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "options":
+    {
+        "default_line_ending": "unix",
+        "tab_size": 4,
+        "translate_tabs_to_spaces": true,
+        "trim_trailing_white_space_on_save": true
+    },
+    "build_systems":
+    [
+        {
+            "name": "render-slides",
+            "shell_cmd": "./render.py"
+        }
+    ]
+}
