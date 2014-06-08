@@ -4,61 +4,65 @@
 
 ## Configuring the slides
 
-Much of the deck is customized by changing the settings in [`slide_config.js`](slide_config.js).
-Some of the customizations include the title, Analytics tracking ID, speaker
-information (name, social urls, blog), web fonts to load, themes, and other
-general behavior.
+Much of the deck is customized by changing the settings in
+[`slide_config.js`](slide_config.js). Some of the customizations include the
+title, Analytics tracking ID, speaker information (name, social urls, blog),
+web fonts to load, themes, and other general behavior.
 
-Changes are loaded at runtime.
+Configuration changes are loaded at runtime.
 
 ## Editing the slides
 
-Slides are stored in `scripts/md/slides.md`. Each slide is separated by a `---`. To render
-the slides, run `./render.py`. This will run the slide contents through the 
-`scripts/md/base.html` template and update `presentation-output.html`, which can be 
-access directly, or served with `serve.sh`. (See below.)
+Slide content is stored in `scripts/md/slides.md`. Each slide is separated by a
+`---`.
 
-Please note that Python, jinja2, and markdown are required. The easiest way to install 
-these on Windows is: 
+To render the slides, run `render.sh`. This will run the slide contents through
+the `scripts/md/base.html` template and update `presentation-output.html`,
+which can be access directly as a file, or served with `serve.sh`.
+(See "Running the slides" below.)
 
-1. Install Python
-2. Install pip
+Please note that Python2, jinja2, and markdown are required. The easiest way to
+install these is:
+
+1. Install [Python2](https://www.python.org/downloads/)
+2. Install [pip](https://pip.pypa.io/en/latest/installing.html)
 3. Install jinja2 and markdown with pip
 
 ## Editing CSS
 
-[Compass](http://compass-style.org/install/) is a CSS preprocessor used to compile
-SCSS/SASS into CSS. We chose SCSS for the new slide deck for maintainability,
-easier browser compatibility, and because...it's the future!
+[Compass](http://compass-style.org/install/) is a CSS preprocessor used to
+compile SCSS/SASS into CSS. We chose SCSS for the new slide deck for
+maintainability, easier browser compatibility, and because...it's the future!
 
-That said, if not comfortable working with SCSS or don't want to learn something
-new, not a problem. The generated .css files can already be found in
-(see [`/theme/css`](theme/css)). You can just edit those and bypass SCSS altogether.
-However, our recommendation is to use Compass. It's super easy to install and use.
+That said, if not comfortable working with SCSS or don't want to learn
+something new, not a problem. The generated .css files can already be found in
+(see [`/theme/css`](theme/css)). You can just edit those and bypass SCSS
+altogether. However, our recommendation is to use Compass. It's super easy to
+install and use.
 
 ### Installing Compass and making changes
 
-First, install compass:
+1. Install Ruby
+2. gem install compass
 
     sudo gem update --system
     sudo gem install compass
 
-Next, you'll want to watch for changes to the exiting .scss files in [`/theme/scss`](theme/scss)
-and any new one you add:
+Next, you'll want to watch for changes to the exiting .scss files in
+[`/theme/scss`](theme/scss) and any new ones you add:
 
-    $ cd io-2012-slides
     $ compass watch
 
 This command automatically recompiles the .scss file when you make a change.
 Its corresponding .css file is output to [`/theme/css`](theme/css). Slick.
 
-By default, [`config.rb`](config.rb) in the main project folder outputs minified
-.css. It's a best practice after all! However, if you want unminified files,
-run watch with the style output flag:
+By default, [`config.rb`](config.rb) in the main project folder outputs
+`minified.css`. It's a best practice after all! However, if you want unminified
+files, run watch with the style output flag:
 
     compass watch -s expanded
 
-*Note:* You should not need to edit [`_base.scss`](theme/scss/_base.scss).
+*Note:* You should *not* need to edit [`_base.scss`](theme/scss/_base.scss).
 
 ## Running the slides
 
@@ -66,11 +70,9 @@ The slides can be run locally from `file://` making development easy :)
 
 ### Running from a web server
 
-If at some point you should need a web server, use [`serve.sh`](serve.sh). It will
-launch a simple one and point your default browser to [`http://localhost:8000/template.html`](http://localhost:8000/template.html):
-
-    $ cd io-2012-slides
-    $ ./serve.sh
+If at some point you should need a web server, run [`serve.sh`](serve.sh), and
+access
+[`http://localhost:8000/presentation-output.html`](http://localhost:8000/presentation-output.html).
 
 You can also specify a custom port:
 
@@ -86,6 +88,17 @@ To enable presenter mode, add `presentme=true` to the URL: [http://localhost:800
 To disable presenter mode, hit [http://localhost:8000/template.html?presentme=false](http://localhost:8000/template.html?presentme=false)
 
 Presenter mode is sticky, so refreshing the page will persist your settings.
+
+### Other runtime options
+
+- Pressing 'h' highlights code snippets
+- Pressing 'p' toggles speaker notes (if they're on the current slide)
+- Pressing 'f' toggles fullscreen viewing
+- Pressing 'w' toggles widescreen
+- Pressing 'o' toggles overview mode
+- Pressing 'ESC' toggles off these goodies
+
+Run through [template.html](template.html) for more info.
 
 ---
 
