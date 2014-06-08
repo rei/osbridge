@@ -32,7 +32,7 @@ Ensuring our code is...
 
 - Organized & documented        <!-- manual/automated docs -->
 - Modularized & reusable        <!-- package management -->
-- Standardized & readable       <!-- code style guides -->
+- Standardized & readable       <!-- code style guides, engineering principles -->
 - Tested & error checked        <!-- Unit testing, lining -->
 - Debuggable                    <!-- source maps, build tools -->
 - Stable & visualized           <!-- metrics collection & logging -->
