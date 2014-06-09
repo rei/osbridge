@@ -15,4 +15,4 @@ scp -r $DIR $SERVER:$DEST
 
 # Set perms
 echo "Setting permissions..."
-ssh $SERVER -t "chmod -R 755" $DEST
+ssh $SERVER -t "chmod -R 775" $DEST
