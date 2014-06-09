@@ -15,35 +15,39 @@ class:      segue dark nobackground
 
 ---
 title: Vision & Mission
-subtitle: "Fast for the user" = A great user experience
+subtitle: "Fast for the user" == A great user experience.
 
-Ensuring our software is...
-
-- Fast
-- lightweight
-- Stable                    <!-- Unit testing, error checking, TMS -->
-- Relevant                  <!-- Analytics to understand our users -->
+- Lightweight & Fast
+- Few errors as possible    <!-- Unit testing, error checking, linting -->
+- Analytics                 <!-- to understand our users -->
+- 3rd-party management      <!-- different standards of quality, TMS -->
 
 ---
 title: Vision & Mission
-subtitle: "Fast for the developer" = A great developer experience
+subtitle: "Fast for the developer" == A great developer experience
 
-Ensuring our code is...
+Maintainable
 
-- Organized & documented        <!-- manual/automated docs -->
-- Modularized & reusable        <!-- package management -->
-- Standardized & readable       <!-- code style guides, engineering principles -->
-- Tested & error checked        <!-- Unit testing, lining -->
-- Debuggable                    <!-- source maps, build tools -->
-- Stable & visualized           <!-- metrics collection & logging -->
+- Organized & documented
+- Modularized & reusable
+- Readable                  <!-- code style guides -->
+- Debuggable                <!-- source maps, logging -->
+
+<br>
+
+- Unit testing, error checking, linting
+- Stability metrics & visualization
+- Trainings
 
 ---
 title: Services We Provide
+Subtitle:
 class: segue dark nobackground
 
 ---
 
 title: Services We Provide
+class: big
 build_lists: true
 
 Overview:
@@ -59,107 +63,55 @@ Overview:
 ---
 
 title: Analytics
-subtitle: Drew Gat.
+Subtitle: Andrew Gat.
 class: segue dark nobackground
 
 ---
 
-title: New Analytics Framework
+title: What's new?
+class: big
 build_lists: true
 
-- Architect a system that is more loosely coupled
-    - works with REI's implementation of Site Cat
-    - works with whichever tag management system
-    - works with content from CQ
-- Build it in a modular and unit testable manner
-- Write documentation
+- New analytics framework and documentation
+- TMS Vendor vetted and contracted signed
+- Analytics Support
 
 ---
 
-title: Tag Management
+title: Next Steps
+class: big
 build_lists: true
 
-- Research and evalutation of TMS vendors
-- Refine project requirements and plan
-- Participant in TMS Governance
-
----
-
-title: Analytics Support
-build_lists: true
-
-- Implemented tagging for REI Camp Quiz
-- Fixed broken implementation of analytics on REI.com Mobile Interstitial Page
-- Mobile Analytics
-    - Product Page
-    - Search Results Page
-    - Order Confirmation Page
-    - Basic Page
-- Adobe POC Analytics
+- Begin formal hand-off of analytics framework
+	- Mobile Product Page
+	- Mobile Search Results Page
+	- Mobile Order Confirmation Page
+- Start implementation of Tealium
+- Analytics for AEM POC
+- Analytics Support
 
 ---
 
 title: Front-End Build System
-subtitle: Maturing the Front-End
+Subtitle: Rob McG.-D.
 class: segue dark nobackground
 
 ---
 
 title: Front-End Build System
-subtitle: Modernizing front-end programming since 2014
-
-- Modularization            <!-- JS and Less, code reuse -->
-- Optimization              <!-- Compilation -->
-- Error checking            <!-- Don't ship errors -->
-- Unit testing              <!-- Ensure correctness -->
-- Dependency management     <!-- Responsible versioning, traceability -->
-- Analysis & visualization  <!-- Stability -->
-
----
-
-title: Front-End Build System
-subtitle: Importance of Modularity and Dependency Management
+class: big
 build_lists: true
-
-<!-- On top of developer sanity... -->
-
-Case study: Home Page on Mobile     <!-- Typical, non-FEBS page -->
-
-- 88% unused CSS + 17% uncompressed JS = 480 KB unnecessary text <!-- as of May 2014 -->
-- 2-7% conversion loss per second load time
-- REI made $15.8 million * 4.6% conversion (FY2013, mobile) => $0.32 - $1.1 million/year/sec in lost sales
-- Per US average mobile speeds, 480 KB => 0.6 - 2 sec
-- Lost $0.25 - $2.25 **million** last year on mobile
-
-<!--
-- US average 3G speed 244 KB/s
-    - 480 KB ~=> 2 sec ~=> 4-14% conversion loss for 3G
-- US average 4G speed 756 KB/s
-    480 KB ~=> 0.6 sec ~=> 1.3-4.4% conversion loss for 4G
--->
-
----
-
-title: Front-End Build System
-subtitle: Developer enablement
-build_lists: true
-
-<!-- Allows developers to do more -->
-
-- Global style framework    <!-- Less -->
-- Dynamic style guide       <!-- Less -->
-- Analytics                 <!-- Helps Drew do his thang -->
-- Mobile Architecture       <!-- 2/3 pillars -->
 
 ---
 
 title: Mobile / Architecture Support
-subtile: Scott Flesher
+Subtitle: Scott Flesher
 class: segue dark nobackground
 
 ---
 
 title: Mobile / Architecture Support
+class: big
 build_lists: false
 
 - Mobile Architecture Support
@@ -178,6 +130,7 @@ class: segue dark nobackground
 ---
 
 title: Conclusions
+class: big
 build_lists: true
 
 How Can Management Support Us?
