@@ -1,34 +1,47 @@
-# REI HTML5 Slide Template
+# REI HTML5 Slide Framework
 
 > Based on [Google I/O 2012 HTML5 Slides](https://code.google.com/p/io-2012-slides/)
 
+This slide framework is customized to be REI-themed, along with various
+improvements to scripts and project structure.
+
+See `template.html` for a walkthrough of this presentation framework's
+abilities. (It's the original template for Google I/O, so don't let the Google
+theme throw ya.)
+
+## Creating a new presentation
+
+To create a new presentation, **create a new branch**, and modify it to your
+heart's content.
+
 ## Configuring the slides
 
-Much of the deck is customized by changing the settings in
-[`slide_config.js`](slide_config.js). Some of the customizations include the
-title, Analytics tracking ID, speaker information (name, social urls, blog),
-web fonts to load, themes, and other general behavior.
+Much of the deck is customized by changing the settings in `slide_config.js`.
+Some of the customizations include the title, Analytics tracking ID, speaker
+information (name, social urls, blog), web fonts to load, themes, and other
+general behavior.
 
-Configuration changes are loaded at runtime.
+Configuration changes are loaded at runtime via JavaScript. There's no need to
+re-render the slides on changes.
 
-## Editing the slides
+## Editing the Slides
 
 Slide content is stored in `scripts/md/slides.md`. Each slide is separated by a
 `---`.
 
 To render the slides, run `render.sh`. This will run the slide contents through
-the `scripts/md/base.html` template and update `presentation-output.html`,
-which can be access directly as a file, or served with `serve.sh`.
-(See "Running the slides" below.)
+the `scripts/md/base.html` template and update `index.html`, which can be
+accessed directly as a file, or served with `serve.sh`. (See "Running the
+slides" below.)
 
-Please note that Python2, jinja2, and markdown are required. The easiest way to
-install these is:
+Please note that Python2, jinja2, and markdown are required for rendering. The
+easiest way to install these is:
 
 1. Install [Python2](https://www.python.org/downloads/)
 2. Install [pip](https://pip.pypa.io/en/latest/installing.html)
 3. Install jinja2 and markdown with pip
 
-## Editing CSS
+## Editing the Styles
 
 [Compass](http://compass-style.org/install/) is a CSS preprocessor used to
 compile SCSS/SASS into CSS. We chose SCSS for the new slide deck for
