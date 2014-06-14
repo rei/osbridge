@@ -42,3 +42,8 @@ Thumbs.db
 *.swp
 *.swo
 fed-presentation.sublime-workspace
+
+# Cache #
+#########
+.sass-cache
+
