@@ -1,0 +1,19 @@
+{
+  "name": "scenery",
+  "version": "0.0.0",
+  "description": "REI's HTML5 presentation framework",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reidev/fed-presentation.git"
+  },
+  "contributors": [
+    "David Baughman <dbaughm@rei.com>",
+    "Rob McGuire-Dale <rmcguir@rei.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nunjucks": "^1.0.5",
+    "gulp": "^3.8.0",
+    "marked": "^0.3.2"
+  }
+}
