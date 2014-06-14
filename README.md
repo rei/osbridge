@@ -9,12 +9,12 @@ See `template.html` for a walkthrough of this presentation framework's
 abilities. (It's the original template for Google I/O, so don't let the Google
 theme throw ya.)
 
-## Creating a new presentation
+## Creating a New Presentation
 
 To create a new presentation, **create a new branch**, and modify it to your
 heart's content.
 
-## Configuring the slides
+## Configuration
 
 Much of the deck is customized by changing the settings in `slide_config.js`.
 Some of the customizations include the title, Analytics tracking ID, speaker
@@ -41,7 +41,41 @@ easiest way to install these is:
 2. Install [pip](https://pip.pypa.io/en/latest/installing.html)
 3. Install jinja2 and markdown with pip
 
+## Running the Slides
+
+The slides can be run locally by opening `index.html` in a web browser.
+
+You may also start a dev server by running `serve.sh`, and accessing
+[`http://localhost:8000/template.html`](http://localhost:8000/template.html).
+
+You can also specify a custom port, e.g., `./serve.sh 8080`
+
+### Presenter Mode
+
+The slides contain a presenter mode feature (beta) to view + control the slides
+from a popup window.
+
+To enable presenter mode, add `presentme=true` to the URL: [http://localhost:8000/template.html?presentme=true](http://localhost:8000/template.html?presentme=true)
+
+To disable presenter mode, hit [http://localhost:8000/template.html?presentme=false](http://localhost:8000/template.html?presentme=false)
+
+Presenter mode is sticky, so refreshing the page will persist your settings.
+
+### Other Runtime Options
+
+- Pressing 'h' highlights code snippets
+- Pressing 'p' toggles speaker notes (if they're on the current slide)
+- Pressing 'f' toggles fullscreen viewing
+- Pressing 'w' toggles widescreen
+- Pressing 'o' toggles overview mode
+- Pressing 'ESC' toggles off these goodies
+
+Run through [template.html](template.html) for more info.
+
 ## Editing the Styles
+
+You should not need to edit the default slide styles, but if you really want
+to, read on.
 
 [Compass](http://compass-style.org/install/) is a CSS preprocessor used to
 compile SCSS/SASS into CSS. We chose SCSS for the new slide deck for
@@ -53,7 +87,7 @@ something new, not a problem. The generated .css files can already be found in
 altogether. However, our recommendation is to use Compass. It's super easy to
 install and use.
 
-### Installing Compass and making changes
+### Installing Compass and Making Changes
 
 1. Install Ruby
 2. gem install compass
@@ -76,42 +110,6 @@ files, run watch with the style output flag:
     compass watch -s expanded
 
 *Note:* You should *not* need to edit [`_base.scss`](theme/scss/_base.scss).
-
-## Running the slides
-
-The slides can be run locally from `file://` making development easy :)
-
-### Running from a web server
-
-If at some point you should need a web server, run [`serve.sh`](serve.sh), and
-access
-[`http://localhost:8000/template.html`](http://localhost:8000/template.html).
-
-You can also specify a custom port:
-
-    $ ./serve.sh 8080
-
-### Presenter mode
-
-The slides contain a presenter mode feature (beta) to view + control the slides
-from a popup window.
-
-To enable presenter mode, add `presentme=true` to the URL: [http://localhost:8000/template.html?presentme=true](http://localhost:8000/template.html?presentme=true)
-
-To disable presenter mode, hit [http://localhost:8000/template.html?presentme=false](http://localhost:8000/template.html?presentme=false)
-
-Presenter mode is sticky, so refreshing the page will persist your settings.
-
-### Other runtime options
-
-- Pressing 'h' highlights code snippets
-- Pressing 'p' toggles speaker notes (if they're on the current slide)
-- Pressing 'f' toggles fullscreen viewing
-- Pressing 'w' toggles widescreen
-- Pressing 'o' toggles overview mode
-- Pressing 'ESC' toggles off these goodies
-
-Run through [template.html](template.html) for more info.
 
 ---
 
