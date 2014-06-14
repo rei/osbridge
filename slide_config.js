@@ -1,18 +1,13 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Platform //<br>Front-End Development',
-    subtitle: 'Front-End Development on the REI.com Platform Team',
-    //eventInfo: {
-    //  title: 'Google I/O',
-    //  date: '6/x/2013'
-    //},
+    title: 'My Presentation Title',
+    subtitle: 'My Presentation Subtitle',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
     enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.
-    //analytics: 'UA-XXXXXXXX-1', // TODO: Using this breaks GA for some reason (probably requirejs). Update your tracking code in template.html instead.
-    favIcon: 'http://www.rei.com/etc/static/rei-wcm/favicon.ico',
+    favIcon: 'http://www.rei.com/etc/static/rei-wcm/favicon.ico', // TODO: Store in the repository
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
       'Source Code Pro'
@@ -23,16 +18,12 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [
   {
-    name: 'Andrew Gatlabyan',
+    name: 'Alice Brussels',
     title: 'Sr. Front-End Developer'
   },
   {
-    name: 'Scott Flesher',
+    name: 'Chris Dacula',
     title: 'Front-End Developer'
-  },
-  {
-    name: 'Rob McGuire-Dale',
-    title: 'Front-end Developer',
   }
   /*, {
     name: 'Second Name',
