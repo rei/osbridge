@@ -1,9 +1,11 @@
 #!/usr/bin/env python
-
 '''
-' Line Endings:
-' Added optional \r to splits to support Windows line endings.
-' If you get only one slide compiling, it's likely related to that.
+Render slide content stored in `slides.md` through `base.html`. Slides are
+separated by '---'.
+
+Note about line endings: Additional '\r's were added to line-ending splits to
+support Windows line endings. If you get only one slide compiling, it's likely
+related to that.
 '''
 
 import codecs
@@ -14,6 +16,17 @@ import markdown
 SLIDE_TMPL_PATH = './base.html'
 SLIDE_MD_PATH   = './slides.md'
 OUT_PATH        = '../../index.html'
+RENDER_WARNING  = '''<!--
+GENERATED FILE WARNING
+======================
+
+This file RE-WRITTEN every time slides are rendered. Do not edit this
+file directly, rather edit the content and template and re-render instead.
+
+Slide content: %s
+Template file: %s
+-->
+''' % ( SLIDE_TMPL_PATH, SLIDE_MD_PATH )
 
 def process_slides():
   with codecs.open(OUT_PATH, 'w', encoding='utf8') as outfile:
@@ -41,7 +54,7 @@ def process_slides():
 
     template = jinja2.Template(open(SLIDE_TMPL_PATH).read())
 
-    outfile.write(template.render(locals()))
+    outfile.write( RENDER_WARNING + template.render( locals() ) )
 
 def parse_metadata(section):
   """Given the first part of a slide, returns metadata associated with it."""
