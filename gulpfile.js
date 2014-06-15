@@ -15,13 +15,20 @@ gulp.task( 'render-slides', function () {
     // Parse slide content
     var slides = [];
     var rawSlides = fs.readFileSync( SLIDES_PATH ).toString().split( SLIDE_DELIMITER );
+
     rawSlides.forEach( function ( slide, idx ) {
         var SECTION_DELIMITER = '\n\n';
-        var sections = slide.split( SECTION_DELIMITER );
-        var metadata = yaml.safeLoad( sections[ 0 ] );
-        var content  = marked( sections.slice( 1 ).join( SECTION_DELIMITER ) );
+        var sections    = slide.split( SECTION_DELIMITER );
+        var metadata    = yaml.safeLoad( sections[ 0 ] );
+        var html        = marked( sections.slice( 1 ).join( SECTION_DELIMITER ) );
+
+        if ( metadata.build_lists ) {
+            html = html.replace( '<ul>', '<ul class="build">' );
+            html = html.replace( '<ol>', '<ol class="build">' );
+        }
+
         slides.push( _.assign( {}, metadata, {
-            content: content,
+            content: html,
             is_segue_slide: ( metadata.class || '' ).indexOf( 'segue' ) > -1
         } ) );
     } );
