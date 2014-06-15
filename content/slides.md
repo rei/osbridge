@@ -9,13 +9,15 @@ Here's a paragraph.
 - List
 
 ---
+
 title:      Segue Slide Example Title
 subtitle:   Segue Slide Example Subtitle
 class:      segue dark nobackground
 
 ---
+
 title: Vision & Mission
-subtitle: "Fast for the user" == A great user experience.
+subtitle: '"Fast for the user" == A great user experience.'
 
 - Lightweight & Fast
 - Few errors as possible    <!-- Unit testing, error checking, linting -->
