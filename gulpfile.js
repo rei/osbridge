@@ -1,6 +1,8 @@
 var fs          = require( 'fs' );
+var util        = require( 'util' );
 var _           = require( 'lodash' );
 var gulp        = require( 'gulp' );
+var gutil       = require( 'gulp-util' );
 var livereload  = require( 'gulp-livereload' );
 var yaml        = require( 'js-yaml' );
 var marked      = require( 'marked' );
@@ -60,6 +62,15 @@ var renderSlides = function ( opts ) {
         livereload: livereload
     } );
     fs.writeFileSync( OUT_PATH, html );
+
+    console.log( util.format(
+        'Wrote %d slides%sfrom %s -> %s -> %s',
+        slides.length,
+        livereload ? ' (with ' + gutil.colors.bold( 'livereload' ) + ' support) ' : ' ',
+        gutil.colors.grey( SLIDES_PATH ),
+        gutil.colors.grey( TMPL_PATH ),
+        gutil.colors.magenta( OUT_PATH )
+    ) );
 }
 
 gulp.task( 'render-slides', renderSlides );
