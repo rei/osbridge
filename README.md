@@ -12,6 +12,27 @@ See `tutorial.html` for a walkthrough of this presentation framework's
 abilities. (It's the original template for Google I/O, so don't let the Google
 theme throw ya.)
 
+## Quick start
+
+1. Clone this repo and `cd` into it
+
+    git clone git@github.com:reidev/scenery.git
+    cd scenery
+
+1. Create a new branch for your presentation,
+
+    git branch -b my-presentation
+
+1. Install render dependencies
+
+    npm install
+
+1. Modify slide config `slide_config.js` and slides in `content/slides.md` as needed
+
+1. Render slides
+
+    npm render
+
 ## Creating a New Presentation
 
 To create a new presentation, **create a new branch**, and modify it to your
@@ -34,28 +55,28 @@ Slide content is stored in `content/slides.md`. Each slide is separated by a
 The slide template is stored in `templates/base.html`.
 
 After any change to the slides or the template, you must **render** the slides.
-To do so, first assure [Node.js](http://nodejs.org) is installed on your system, 
+To do so, first assure [Node.js](http://nodejs.org) is installed on your system,
 and run the following from the project root:
 
     npm install
-    
+
 Once the render dependencies are installed, you may run the following to render
 the slides:
 
     gulp
 
-This will run the slide contents through the `templtes/base.html` template and 
-update `index.html`, which can be accessed directly as a file, or served with 
+This will run the slide contents through the `templtes/base.html` template and
+update `index.html`, which can be accessed directly as a file, or served with
 `npm start`. (See "Running the slides" below.)
 
-You may also enable watch and livereload to rerender and reload the slides 
+You may also enable watch and livereload to rerender and reload the slides
 after every change to the template or the slide content file:
 
     gulp watch
 
 ## Running the Slides
 
-The slides can be run locally by opening `index.html` in a web browser after 
+The slides can be run locally by opening `index.html` in a web browser after
 rendering.
 
 You may also start a dev server by running `npm start`, and accessing

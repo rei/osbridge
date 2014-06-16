@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "REI's HTML5 presentation framework",
   "scripts": {
+    "render": "gulp",
+    "render-watch": "gulp watch",
     "start": "http-server"
   },
   "repository": {
