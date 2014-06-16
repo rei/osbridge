@@ -1,10 +1,4 @@
-title:      Basics
-subtitle:   Segue Slide Subtitle Placeholder
-class:      segue dark nobackground
-
----
-
-title:      Slide with Bullets
+title: Introduction
 
 - Titles are formatted as Open Sans with bold applied and font size is set at 45
 - Title capitalization is title case

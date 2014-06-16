@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'My Presentation Title',
-    subtitle: 'My Presentation Subtitle',
+    title: 'Expedition into Open Source',
+    subtitle: 'REI\'s Journey Into Open Source Contributions',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -18,12 +18,8 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [
   {
-    name: 'Alice Brussels',
-    title: 'Sr. Front-End Developer'
-  },
-  {
-    name: 'Chris Dacula',
-    title: 'Front-End Developer'
+    name: 'Rob McGuire-Dale',
+    title: 'Front-End Developer, REI.com'
   }
   /*, {
     name: 'Second Name',
