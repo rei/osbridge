@@ -11,7 +11,7 @@ var nunjucks    = require( 'nunjucks' );
 var SLIDES_PATH     = './content/slides.md';
 var TMPL_PATH       = './templates/base.html';
 var CONFIG_PATH     = './slide_config.js';
-var OUT_PATH        = './index2.html';
+var OUT_PATH        = './index.html';
 var SLIDE_DELIMITER = '\n---\n';
 
 // Render slides
