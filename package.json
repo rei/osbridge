@@ -1,6 +1,6 @@
 {
   "name": "scenery",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "REI's HTML5 presentation framework",
   "scripts": {
     "start": "http-server"
