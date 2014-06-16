@@ -2,6 +2,9 @@
   "name": "scenery",
   "version": "0.0.0",
   "description": "REI's HTML5 presentation framework",
+  "scripts": {
+    "start": "http-server"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/reidev/fed-presentation.git"
@@ -17,6 +20,7 @@
     "marked": "^0.3.2",
     "js-yaml": "^3.0.2",
     "lodash": "^2.4.1",
-    "gulp-livereload": "^2.1.0"
+    "gulp-livereload": "^2.1.0",
+    "http-server": "^0.6.1"
   }
 }
