@@ -31,7 +31,7 @@ theme throw ya.)
 
 1. Render slides
 
-        npm render
+        npm run render
 
 Read the sections below for more details.
 
@@ -65,7 +65,7 @@ and run the following from the project root:
 Once the render dependencies are installed, you may run the following to render
 the slides:
 
-    gulp
+    npm run render
 
 This will run the slide contents through the `templtes/base.html` template and
 update `index.html`, which can be accessed directly as a file, or served with
@@ -74,7 +74,7 @@ update `index.html`, which can be accessed directly as a file, or served with
 You may also enable watch and livereload to rerender and reload the slides
 after every change to the template or the slide content file:
 
-    gulp watch
+    npm run render-watch
 
 ## Running the Slides
 
