@@ -31,10 +31,18 @@ var renderSlides = function ( opts ) {
         var metadata    = yaml.safeLoad( sections[ 0 ] );
         var html        = marked( sections.slice( 1 ).join( SECTION_DELIMITER ) );
 
-        // Post-process lists to build if enabled
-        if ( metadata.build_lists ) {
-            html = html.replace( '<ul>', '<ul class="build">' );
-            html = html.replace( '<ol>', '<ol class="build">' );
+        // Post-process lists to build/fade if enabled
+        if ( metadata.build_lists || metadata.build_fade_lists ) {
+            var classes = 'build';
+            if ( metadata.build_fade_lists ) {
+                classes += ' fade';
+            }
+            [ 'ul', 'ol' ].forEach( function ( listEl ) {
+                html = html.replace(
+                    new RegExp( '<' + listEl + '>', 'g' ),
+                    '<' + listEl + ' class="' + classes + '">'
+                );
+            } );
         }
 
         // Build the slide context for the template
