@@ -24,4 +24,3 @@ build_lists:    true
 - will build
 - one at
 - a time
-

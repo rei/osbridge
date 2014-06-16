@@ -1,6 +1,7 @@
 var fs          = require( 'fs' );
 var _           = require( 'lodash' );
 var gulp        = require( 'gulp' );
+var livereload  = require( 'gulp-livereload' );
 var yaml        = require( 'js-yaml' );
 var marked      = require( 'marked' );
 var nunjucks    = require( 'nunjucks' );
@@ -14,7 +15,12 @@ var SLIDE_DELIMITER = '\n---\n';
 
 // Render slides
 // ----------------------------------------------------------------------------
-gulp.task( 'render-slides', function () {
+var renderSlides = function ( opts ) {
+
+    // Gather opts
+    var livereload = opts.livereload || false;
+
+    console.log( '>>>', 'Re-render with LR support!' );
 
     // Parse slide content
     var slides = [];
@@ -40,13 +46,36 @@ gulp.task( 'render-slides', function () {
     } );
 
     // Render slide template
-    fs.writeFileSync( OUT_PATH, nunjucks.render( TMPL_PATH, { slides: slides } ) );
-} );
+    var html = nunjucks.render( TMPL_PATH, {
+        slides:     slides,
+        livereload: livereload
+    } );
+    fs.writeFileSync( OUT_PATH, html );
+}
+
+gulp.task( 'render-slides', renderSlides );
 
 // Watch
 // ----------------------------------------------------------------------------
-gulp.task( 'watch', [ 'render-slides' ], function ( cb ) {
-    gulp.watch( SLIDES_PATH, [ 'render-slides' ] );
+gulp.task( 'watch', function ( cb ) {
+
+    // Die gracefully on ctrl+c
+    process.on( 'SIGINT', function () {
+        console.log( '\nExiting...' );
+        cb();
+        process.exit( 0 );
+    });
+
+    // Start the livereload server, render slides with livereload
+    livereload.listen();
+    renderSlides( { livereload: true } );
+
+    // On slide changes, re-render slides with lr support, trigger lr change
+    gulp.watch( SLIDES_PATH )
+        .on( 'change', function ( event ) {
+            renderSlides( { livereload: true } );
+            livereload.changed( event );
+        } );
 } )
 
 // Default
