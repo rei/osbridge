@@ -29,6 +29,7 @@ var renderSlides = function ( opts ) {
         var SECTION_DELIMITER = '\n\n';
         var sections    = slide.split( SECTION_DELIMITER );
         var metadata    = yaml.safeLoad( sections[ 0 ] );
+        var notes       = metadata.notes ? marked( metadata.notes ) : null;
         var html        = marked( sections.slice( 1 ).join( SECTION_DELIMITER ) );
 
         // Post-process lists to build/fade if enabled
@@ -48,6 +49,7 @@ var renderSlides = function ( opts ) {
         // Build the slide context for the template
         slides.push( _.assign( {}, metadata, {
             content: html,
+            notes: notes,
             is_segue_slide: ( metadata.class || '' ).indexOf( 'segue' ) > -1
         } ) );
     } );

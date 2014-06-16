@@ -44,6 +44,13 @@ https://code.google.com/p/io-2012-slides
 
 {% for slide in slides %}
 <slide {% if slide.class %}class="{{ slide.class }}"{% endif %} {% if slide.image %}style="background-image: url({{ slide.image }})"{% endif %}>
+  {% if slide.notes %}
+    <aside class="note">
+      <section>
+        {{ slide.notes }}
+      </section>
+    </aside>
+  {% endif %}
   {% if slide.is_segue_slide %}
     <aside class="gdbar"><img src="images/rei-logo.svg"></aside>
     <hgroup class="auto-fadein">
