@@ -10,6 +10,7 @@ var nunjucks    = require( 'nunjucks' );
 // ----------------------------------------------------------------------------
 var SLIDES_PATH     = './content/slides.md';
 var TMPL_PATH       = './templates/base.html';
+var CONFIG_PATH     = './slide_config.js';
 var OUT_PATH        = './index2.html';
 var SLIDE_DELIMITER = '\n---\n';
 
@@ -19,8 +20,6 @@ var renderSlides = function ( opts ) {
 
     // Gather opts
     var livereload = opts.livereload || false;
-
-    console.log( '>>>', 'Re-render with LR support!' );
 
     // Parse slide content
     var slides = [];
@@ -57,6 +56,12 @@ gulp.task( 'render-slides', renderSlides );
 
 // Watch
 // ----------------------------------------------------------------------------
+var WATCH_GLOBS = [
+    SLIDES_PATH,
+    TMPL_PATH,
+    CONFIG_PATH
+];
+
 gulp.task( 'watch', function ( cb ) {
 
     // Die gracefully on ctrl+c
@@ -71,7 +76,7 @@ gulp.task( 'watch', function ( cb ) {
     renderSlides( { livereload: true } );
 
     // On slide changes, re-render slides with lr support, trigger lr change
-    gulp.watch( SLIDES_PATH )
+    gulp.watch( WATCH_GLOBS )
         .on( 'change', function ( event ) {
             renderSlides( { livereload: true } );
             livereload.changed( event );
