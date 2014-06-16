@@ -16,22 +16,24 @@ theme throw ya.)
 
 1. Clone this repo and `cd` into it
 
-    git clone git@github.com:reidev/scenery.git
-    cd scenery
+        git clone git@github.com:reidev/scenery.git
+        cd scenery
 
 1. Create a new branch for your presentation,
 
-    git branch -b my-presentation
+        git branch -b my-presentation
 
 1. Install render dependencies
 
-    npm install
+        npm install
 
 1. Modify slide config `slide_config.js` and slides in `content/slides.md` as needed
 
 1. Render slides
 
-    npm render
+        npm render
+
+Read the sections below for more details.
 
 ## Creating a New Presentation
 
