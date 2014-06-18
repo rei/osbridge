@@ -18,7 +18,7 @@ https://code.google.com/p/io-2012-slides
   <!--This one seems to work all the time, but really small on ipad-->
   <!--<meta name="viewport" content="initial-scale=0.4">-->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/{% if genericize %}default-generic{% else %}default{% endif %}.css">
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
   <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
 </head>
@@ -28,12 +28,18 @@ https://code.google.com/p/io-2012-slides
 
 <!-- <slide>
   <article class="flexbox vcenter">
-    <span><img src="http://www.rtcsnv.com/wp-content/uploads/2014/04/REI-logo.jpg"></span>
+    <span><img src="http://www.rtcsnv.com/wp-content/uploads/2014/04/io2012_logo.jpg"></span>
   </article>
 </slide> -->
 
 <slide class="title-slide segue nobackground">
-  <aside class="gdbar"><img src="images/rei-logo.svg"></aside>
+  <aside class="gdbar">
+    {% if genericize %}
+      <img style="width:auto; height:79px;" src="images/osbridge_logo.png">
+    {% else %}
+      <img src="images/rei-logo.svg">
+    {% endif %}
+  </aside>
   <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
   <hgroup class="auto-fadein">
     <h1 data-config-title><!-- populated from slide_config.json --></h1>
@@ -52,7 +58,13 @@ https://code.google.com/p/io-2012-slides
     </aside>
   {% endif %}
   {% if slide.is_segue_slide %}
-    <aside class="gdbar"><img src="images/rei-logo.svg"></aside>
+    <aside class="gdbar">
+      {% if genericize %}
+        <img style="width:auto; height:79px;" src="images/osbridge_logo.png">
+      {% else %}
+        <img src="images/rei-logo.svg">
+      {% endif %}
+    </aside>
     <hgroup class="auto-fadein">
       <h2>{{ slide.title }}</h2>
       <h3>{{ slide.subtitle }}</h3>
@@ -70,7 +82,13 @@ https://code.google.com/p/io-2012-slides
 {% endfor %}
 
 <slide class="thank-you-slide segue nobackground">
-  <aside class="gdbar right"><img src="images/rei-logo.svg"></aside>
+  <aside class="gdbar right">
+    {% if genericize %}
+      <img style="width:auto; height:79px;" src="images/osbridge_logo.png">
+    {% else %}
+      <img src="images/rei-logo.svg">
+    {% endif %}
+  </aside>
   <article class="flexbox vleft auto-fadein">
     <h2>Thank You!</h2>
   </article>

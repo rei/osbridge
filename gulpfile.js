@@ -10,11 +10,12 @@ var nunjucks    = require( 'nunjucks' );
 
 // Config
 // ----------------------------------------------------------------------------
-var SLIDES_PATH     = './content/slides.md';
-var TMPL_PATH       = './templates/base.html';
-var CONFIG_PATH     = './slide_config.js';
-var OUT_PATH        = './index.html';
-var SLIDE_DELIMITER = '\n---\n';
+var SLIDES_PATH       = './content/slides.md';
+var TMPL_PATH         = './templates/base.html';
+var CONFIG_PATH       = './slide_config.js';
+var OUT_PATH          = './index.html';
+var OUT_PATH_GENERIC  = './index-generic.html';
+var SLIDE_DELIMITER   = '\n---\n';
 
 // Render slides
 // ----------------------------------------------------------------------------
@@ -64,6 +65,14 @@ var renderSlides = function ( opts ) {
         livereload: livereload
     } );
     fs.writeFileSync( OUT_PATH, html );
+
+    // Render slide template
+    var html = nunjucks.render( TMPL_PATH, {
+        slides:     slides,
+        livereload: livereload,
+        genericize: true
+    } );
+    fs.writeFileSync( OUT_PATH_GENERIC, html );
 
     console.log( util.format(
         'Wrote %d slides%sfrom %s -> %s -> %s',
