@@ -73,6 +73,7 @@ title: Open Source Background
 
 <!-- Asked to provide OSS background -->
 
+<!--
 <img style="
     width:    250px;
     position: absolute;
@@ -93,6 +94,7 @@ title: Open Source Background
     right:    50px;
     top:      350px"
   src="http://activeinboston.com/wp-content/uploads/2013/12/REI-Logo.png">
+-->
 
 - OSU Open Source Lab
 
