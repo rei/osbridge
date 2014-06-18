@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Expedition into Open Source',
-    subtitle: 'REI\'s Journey Into Open Source Contributions',
+    subtitle: 'REI Engineering\'s Journey Towards Open Source Contributions',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.

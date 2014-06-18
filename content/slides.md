@@ -1,143 +1,127 @@
-title: Introduction
-
-- Titles are formatted as Open Sans with bold applied and font size is set at 45
-- Title capitalization is title case
-    - Subtitle capitalization is title case
-- Subtitle capitalization is title case
-- Titles and subtitles should never have a period at the end
-
----
-
-title: Slide with Bullets that Build
-subtitle: Subtitle Placeholder
-build_lists: true
-
-A list where items build:
-
-- Pressing 'h' highlights code snippets
-- Pressing 'p' toggles speaker notes (if they're on the current slide)
-- Pressing 'f' toggles fullscreen viewing
-- Pressing 'w' toggles widescreen
-- Pressing 'o' toggles overview mode
-- Pressing 'ESC' toggles off these goodies
-
----
-
-title: Slide with Bullets that Build AND Fade
-build_fade_lists: true
-
-Another list that builds, but items fade as they build:
-
-- Hover over me!
-- Hover over me!
-- Hover over me!
-
----
-
-title: Slide with Smaller Font
-content_class: smaller
-
-- All [links](http://google.com) open in new tabs.
-- To change that this, add <code>target="_self"</code> to the link.
-
----
-
-title:      Code
-subtitle:   Segue Slide Subtitle Placeholder
-class:      segue dark nobackground
-
----
-
-title: Slide with Code
-
-Press 'h' to highlight important sections of code (wrapped in &lt;b&gt;).
-
-<pre class="prettyprint" data-lang="javascript">
-    // Say hello world until the user starts questioning
-    // the meaningfulness of their existence.
-    function helloWorld( world ) {
-        <b>for (var i = 42; --i >= 0;) {
-            alert('Hello ' + String(world));
-        }</b>
-    }
-</pre>
-
----
-
-title:      Presenter Mode
-subtitle:   Segue Slide Subtitle Placeholder
-class:      segue dark nobackground
-
----
-
-title: Slide with Speaker Notes
+title: What's this ABOUT anyway?
+# build_lists: true
 notes: |
-    - Point I wanted to make #1
-    - Point I wanted to make #2
-    - Point I wanted to make #3
-    - Example [link](http://example.com) in notes.
+  - Start by clarifying purpose of this presentation
 
-Press 'p' to toggle speaker notes.
+- A story of an on-going journey
 
----
+- Preparing a large cooperative for open source contributions
 
-title: Presenter Mode
-
-Add <a href="?presentme=true" target="_self">`?presentme=true`</a> to the URL
-to enabled presenter mode. This setting is sticky, meaning refreshing the page
-will persist presenter mode.
-
-Hit <a href="?presentme=false" target="_self">`?presentme=false`</a> to disable
-presenter mode.
+- From one software engineer's perspective
 
 ---
 
-title:      Images
-subtitle:   Segue Slide Subtitle Placeholder
-class:      segue dark nobackground
+title: What is this presentation NOT
+notes: |
+  - Start by setting expectations
+  - An instruction manual for convincing your organization for open source contributions
+
+- An instruction manual
+
+- A story with a conclusion
 
 ---
 
-title: Slide with Image
+title: Hats!
 
-<img src="images/chart.png" class="reflect" alt="Description" title="Description">
-<footer class="source">source: place source info here</footer>
+<img
+  style="
+    width:    250px;
+    position: absolute;
+    right:    50px;
+    top:      50px"
+  src='http://www.rei.com/media/tt/98f33c79-5ef2-4c4c-95f8-420b3b602df8.jpg'>
+<!-- "Dorfman Pacific" http://www.rei.com/product/631470/dorfman-pacific-all-season-crushable-hat -->
+
+- Front End Software Developer for REI.com
+
+    <!-- Surprisingly mature: Among ~40 software developers, SDETS, manual testers -->
+
+- "Back End of the Front End"
+
+    <!-- Unique: Don't like display layer, love accessibility + being close to the user -->
+
+- Platform Team, DevOps
+
+    <!-- Bring software engineering + comp. sci. to the front-end -->
+
+  - Build System ( Node.js + NPM + gulp )
+
+      <!-- Dependency management, modularity, unit testing "Almost like a real programming environment!" -->
+
+  - Statistics, Visualization, Dashboarding
+
+      <!-- Code stability, unit test coverage, performance -->
+
+  - Architecture and Frameworks
+
+      <!-- Maybe you don't need jQuery there -->
+
+- Hiring
+
+    <!--
+      Interview exercise, not only code skills,
+
+      candidate's software engineering skills, commit messages
+
+      (Let me in, had to raise the bar)
+    -->
 
 ---
 
-title: Slide with Image (centered horiz/vert)
-content_class: flexbox vcenter
+title: Open Source Background
 
-<img src="images/barchart.png" alt="Description" title="Description">
-<footer class="source">source: place source info here</footer>
+<!-- Asked to provide OSS background -->
 
----
+<img style="
+    width:    250px;
+    position: absolute;
+    right:    50px;
+    top:      50px"
+  src="https://www.python.org/images/infrastructure/osl.png">
 
-title:      Tables
-subtitle:   Segue Slide Subtitle Placeholder
-class:      segue dark nobackground
+<img style="
+    width:    275px;
+    position: absolute;
+    right:    50px;
+    top:      200px"
+  src="http://www.parabolicarc.com/wp-content/uploads/2009/04/boeing_logo.jpg">
 
----
+<img style="
+    width:    300px;
+    position: absolute;
+    right:    50px;
+    top:      350px"
+  src="http://activeinboston.com/wp-content/uploads/2013/12/REI-Logo.png">
 
-title: Slide with Table
+- OSU Open Source Lab
 
-<table>
-<tr>
-  <th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th><th>Column 4</th>
-</tr>
-<tr>
-  <td>Row 1</td><td>placeholder</td><td class="highlight">placeholder</td><td>placeholder</td><td>placeholder</td>
-</tr>
-<tr>
-  <td>Row 2</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-</tr>
-<tr>
-  <td>Row 3</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-</tr>
-<tr>
-  <td>Row 4</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-</tr>
-<tr>
-  <td>Row 5</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-</tr>
-</table>
+  <!-- Long time supporter of open source, lucky to get in -->
+
+  - Cut my software engineering teeth
+
+    <!-- Learned more than in college -->
+
+  - [TouchScreen](https://code.osuosl.org/projects/touchscreen)
+
+    <!-- Kiosk Software, Outside OSL Data Center -->
+
+  - [Ganeti Web Manager](https://code.osuosl.org/projects/ganeti-webmgr)
+
+    <!-- Mange Google's Ganeti virtual machine clusters via the web -->
+
+
+- Boeing
+
+  - Internal "GitHub" with [GitLab](https://www.gitlab.com/)
+
+    <!-- Internal "open source" community organization -->
+
+
+- REI?
+
+  <!-- Personal crusade to bring open source to the cooperative -->
+
+  - Speak at open source conferences
+
+  - Bring open source contributions to the cooperative

@@ -32,7 +32,9 @@ var renderSlides = function ( opts ) {
         var sections    = slide.split( SECTION_DELIMITER );
         var metadata    = yaml.safeLoad( sections[ 0 ] );
         var notes       = metadata.notes ? marked( metadata.notes ) : null;
-        var html        = marked( sections.slice( 1 ).join( SECTION_DELIMITER ) );
+        var html        = marked( sections.slice( 1 ).join( SECTION_DELIMITER ), {
+                              sanitize: false
+                          } );
 
         // Post-process lists to build/fade if enabled
         if ( metadata.build_lists || metadata.build_fade_lists ) {
