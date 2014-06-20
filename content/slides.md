@@ -9,6 +9,8 @@ title: What's this ABOUT anyway?
 
 - From one software engineer's perspective
 
+    <!-- Public Affairs: My experiences/opinion, not necessarily REI's -->
+
 ---
 
 title: What is this presentation NOT
@@ -26,12 +28,9 @@ title: What is this presentation NOT
 - Very long :(
 
     <!--
+        - Wheels of bureaucracy turn slowly
 
-        - Wheels of bureaucracy turn slow
-
-        - Open it up to you all to share your stories
-
-        - Successes, challenges
+        - Open it up to you all to share your stories (successes, challenges)
     -->
 
 ---
@@ -223,7 +222,7 @@ subtitle: Ghosts of the past
 ---
 
 title: Into the Shadow
-subtitle: Mini OSS Community on the DL
+subtitle: Covert OSS Community
 
 - [github.com/reidev](https://github.com/reidev)
 
@@ -250,3 +249,82 @@ subtitle: Mini OSS Community on the DL
     <!--
         - gulp-chug
     -->
+
+---
+
+title: Quest for Legitimacy
+subtitle: Management Heads the Political Battle
+
+<!-- As with many development problems at REI, the hardest part is political, not technical -->
+
+- Convince upper-management
+
+    <!--
+        - Through the director level
+
+        - Agree it aligns with REI's core values of stewardship and community service
+
+        - Green light
+    -->
+
+- Meet with the OSU Open Source Lab for guidence
+
+     <!--
+         - Gracious
+     -->
+
+    - Legal Liability?
+
+        <!-- Most OSS licences release liability -->
+
+    - Competitive advantage?
+
+        <!--
+            - Retailer
+
+            - Front-end code accessable for the curious anyway
+        -->
+
+    - Public contribution process
+
+        <!--
+            - Already use Git, Stash, Jenkins, etc.
+        -->
+
+    - Community management
+
+        <!--
+            - PR guidelines
+        -->
+
+---
+
+title: Coming Soon
+subtitle: Next Steps
+
+- Meeting with legal and security
+
+    <!--
+        - Initial pitch
+
+        - back to us in a couple weeks
+    -->
+
+- Projects behind the floodgates
+
+    - Atless     - JavaScript and CSS source map stream transformer
+    - Rev        - MD5 cache-buster for front-end resources
+    - 3POC       - Markup composition inheritance pattern for JSP
+    - Shoelace   - Style framework
+    - Scenery    - HTML5 presentation framework (running this presentation)
+
+---
+
+title: Your Turn
+subtitle: What are your experiences fighting the good fight?
+
+- Successes?
+
+- Challenges?
+
+- Advice?
