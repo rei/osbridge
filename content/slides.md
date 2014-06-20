@@ -108,7 +108,7 @@ title: Open Source Background
     top:      350px"
   src="http://activeinboston.com/wp-content/uploads/2013/12/REI-Logo.png">
 
-- OSU Open Source Lab
+OSU Open Source Lab
 
   <!-- Long time supporter of open source, lucky to get in -->
 
@@ -124,18 +124,59 @@ title: Open Source Background
 
     <!-- Mange Google's Ganeti virtual machine clusters via the web -->
 
-
-- Boeing
+Boeing
 
   - Internal "GitHub" with [GitLab](https://www.gitlab.com/)
 
     <!-- Internal "open source" community organization -->
 
-
-- REI?
+REI?
 
   <!-- Personal crusade to bring open source to the cooperative -->
 
   - Speak at open source conferences
 
   - Bring open source contributions to the cooperative
+
+      <!-- What I'm here to talk about -->
+
+---
+
+title: The Journey Begins
+subtitle: Where did this all start?
+
+Open Source-Savvy Engineers.
+
+<!-- Been working with the OSS community for many years -->
+
+- We depend on open source. It runs our infrastructure.
+
+    <!-- Java, Jenkins, Apache, Maven, Node + hundreds of other libraries and tools -->
+
+- Engineers want to give back
+
+    <!--
+        - Hippy reasons: Passionate people
+
+        - Culture of environmental stewardship and community service, extend -> software
+    -->
+
+- Increase code quality
+
+    <!--
+        - "given enough eyeballs, all bugs are shallow" - Linus's Law (need to find/fix bugs anyway, better to find them sooner)
+
+        - Higher quality code if know your name is publicly attached to it
+    -->
+
+- Dev cred
+
+    <!--
+        - More selfish reasons...
+
+        - Reputation. "Oh, you're a WEB DEV" feel like I have to defend my honor
+
+        - Attracting devs. (Many devs don't know REI develops its own software.)
+
+        - We want to play!
+    -->
