@@ -143,22 +143,24 @@ REI?
 ---
 
 title: The Journey Begins
-subtitle: Where did this all start?
+subtitle: OSS-Savvy Engineers + Supportive Management
 
-Open Source-Savvy Engineers.
+<!--
+    - OSS - savvy engineers
 
-<!-- Been working with the OSS community for many years -->
+    - Been working with the OSS community for many years
+-->
 
-- We depend on open source. It runs our infrastructure.
+- We depend on open source; It runs our infrastructure.
 
     <!-- Java, Jenkins, Apache, Maven, Node + hundreds of other libraries and tools -->
 
-- Engineers want to give back
+- We want to give back
 
     <!--
         - Hippy reasons: Passionate people
 
-        - Culture of environmental stewardship and community service, extend -> software
+        - Culture of environmental stewardship and community service (extend -> software)
     -->
 
 - Increase code quality
@@ -167,6 +169,14 @@ Open Source-Savvy Engineers.
         - "given enough eyeballs, all bugs are shallow" - Linus's Law (need to find/fix bugs anyway, better to find them sooner)
 
         - Higher quality code if know your name is publicly attached to it
+    -->
+
+- Let community hack and remix
+
+    <!--
+        - Engineers are busy
+
+        - What can the public come up with given these APIs?
     -->
 
 - Dev cred
@@ -179,4 +189,64 @@ Open Source-Savvy Engineers.
         - Attracting devs. (Many devs don't know REI develops its own software.)
 
         - We want to play!
+    -->
+
+---
+
+title: Archeological Evidence
+subtitle: Ghosts of the past
+
+<!--
+    - Working at REI for 15 months (yes, still in months)
+
+    - Ever dig through code and find ghostly footprints?
+
+    - Oh god, someone's tried this before!
+-->
+
+- code.rei.com
+
+    <!--
+        - Intended to document our APIs/SOA architecture
+
+        - Security shut it down (security through obsurity)
+
+        - Sitting on the edge of our network, blocked by a single firewall filter
+    -->
+
+- Engineering blog
+
+    <!--
+        - Engineers write blog posts re: solved problems
+    -->
+
+---
+
+title: Into the Shadow
+subtitle: Mini OSS Community on the DL
+
+- [github.com/reidev](https://github.com/reidev)
+
+- Code style guides ([JS](https://github.com/reidev/js-style-guide), [HTML](https://github.com/reidev/markup-style-guide), [CSS](https://github.com/reidev/stylesheet-style-guide))
+
+    <!--
+        - AirBnB fork, JS style guide
+
+        - documentation deemed safe by management
+    -->
+
+- Upstream patches ([Istanbul](https://github.com/reidev/istanbul))
+
+    <!--
+        - Istanbul (code coverage)
+
+        - NPM tools
+
+        - Gulp
+    -->
+
+- Personal projects ([gulp-chug](https://github.com/robatron/gulp-chug))
+
+    <!--
+        - gulp-chug
     -->
