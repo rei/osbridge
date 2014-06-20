@@ -1,7 +1,7 @@
 title: What's this ABOUT anyway?
 # build_lists: true
-notes: |
-  - Start by clarifying purpose of this presentation
+
+<!-- Start by clarifying purpose of this presentation -->
 
 - A story of an on-going journey
 
@@ -12,13 +12,18 @@ notes: |
 ---
 
 title: What is this presentation NOT
-notes: |
-  - Start by setting expectations
-  - An instruction manual for convincing your organization for open source contributions
+
+<!-- Start by setting expectations -->
 
 - An instruction manual
 
+    <!-- ...for convincing your organization for open source contributions -->
+
 - A story with a conclusion
+
+    <!-- ongoing discussion -->
+
+- Very long :(
 
 ---
 
