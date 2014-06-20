@@ -19,7 +19,10 @@ var SLIDE_CONFIG = {
   presenters: [
   {
     name: 'Rob McGuire-Dale',
-    title: 'Front-End Developer, REI.com'
+    title: 'Front-End Developer, REI.com',
+    github: 'http://github.com/robatron',
+    gplus: 'https://plus.google.com/+RobMcGuireDale',
+    www: 'http://robmd.net'
   }
   /*, {
     name: 'Second Name',
@@ -31,4 +34,3 @@ var SLIDE_CONFIG = {
   } */
   ]
 };
-
