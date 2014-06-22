@@ -314,7 +314,7 @@ subtitle: Next Steps
 
     - Atless     - JavaScript and CSS source map stream transformer
     - Rev        - MD5 cache-buster for front-end resources
-    - 3POC       - Markup composition inheritance pattern for JSP
+    - 3POC       - Markup composition and inheritance pattern for JSP
     - Shoelace   - Style framework
     - Scenery    - HTML5 presentation framework (running this presentation)
 

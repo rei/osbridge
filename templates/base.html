@@ -82,19 +82,25 @@ https://code.google.com/p/io-2012-slides
 {% endfor %}
 
 <slide class="thank-you-slide segue nobackground">
-  <aside class="gdbar right">
+  <!-- <aside class="gdbar right">
     {% if genericize %}
       <img style="width:auto; height:79px;" src="images/osbridge_logo.png">
     {% else %}
       <img src="images/rei-logo.svg">
     {% endif %}
-  </aside>
-  <article class="flexbox vleft auto-fadein">
+  </aside> -->
+  <article class="flexbox vcenter auto-fadein">
+      <img src="./images/qr.png"
+          style="
+              margin-bottom: 53.3333333px
+          ">
     <h2>Thank You!</h2>
+    <p class="auto-fadein" data-config-contact style="
+            line-height: 1.25;
+        ">
+      <!-- populated from slide_config.json -->
+    </p>
   </article>
-  <p class="auto-fadein" data-config-contact>
-    <!-- populated from slide_config.json -->
-  </p>
 </slide>
 
 <!-- <slide class="logoslide dark nobackground">
