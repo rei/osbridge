@@ -154,30 +154,25 @@ notes: |
 
 title: Archeological Evidence
 subtitle: Ghosts of the past
-
-<!--
-    - Working at REI for 15 months (yes, still in months)
-
+notes: |
+    - Working at REI for 15 months (yes, still in months, like the age of a baby <2 years)
+    - --
     - Ever dig through code and find ghostly footprints?
-
-    - Oh god, someone's tried this before!
--->
+    - "Oh god, someone's tried this before!"
+    - --
+    - Intended to document our APIs/SOA architecture
+    - Security shut it down (security through obsurity)
+    - Sitting on the edge of our network, blocked by a single firewall filter
+    - --
+    - Engineering blog: blog, developer profiles
+    - Wrapped up in code.rei.com
+    - --
+    - Learnings helped adjust approach
+    - APIs/SOA scary for security. FED libs not so much?
 
 - code.rei.com
 
-    <!--
-        - Intended to document our APIs/SOA architecture
-
-        - Security shut it down (security through obsurity)
-
-        - Sitting on the edge of our network, blocked by a single firewall filter
-    -->
-
 - Engineering blog
-
-    <!--
-        - Engineers write blog posts re: solved problems
-    -->
 
 ---
 
