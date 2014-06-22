@@ -15,7 +15,11 @@ title: What's this ABOUT anyway?
 
 title: What is this presentation NOT
 
-<!-- Start by setting expectations -->
+<!-- 
+    - Start by setting expectations 
+    
+    - "If you didn't see it in the presentation description..."
+-->
 
 - An instruction manual
 
