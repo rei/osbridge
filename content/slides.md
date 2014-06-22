@@ -178,92 +178,76 @@ notes: |
 
 title: Into the Shadow
 subtitle: Covert OSS Community
+notes: |
+    - Needed something NOW while we waited
+    - Start with style guides (AirBnB)
+    - Documentation (re: style guide) deemed innocuous by management
+    - --
+    - Upstream patches
+    - Istanbul (code coverage), NPM, Nexus, Maven
+    - --
+    - Loophole: Personal projects
+    - REI all about privacy ("none of business")
 
 - [github.com/reidev](https://github.com/reidev)
 
 - Code style guides ([JS](https://github.com/reidev/js-style-guide), [HTML](https://github.com/reidev/markup-style-guide), [CSS](https://github.com/reidev/stylesheet-style-guide))
 
-    <!--
-        - AirBnB fork, JS style guide
-
-        - documentation deemed safe by management
-    -->
-
 - Upstream patches ([Istanbul](https://github.com/reidev/istanbul))
 
-    <!--
-        - Istanbul (code coverage)
-
-        - NPM tools
-
-        - Gulp
-    -->
-
 - Personal projects ([gulp-chug](https://github.com/robatron/gulp-chug))
-
-    <!--
-        - gulp-chug
-    -->
 
 ---
 
 title: Quest for Legitimacy
 subtitle: Management Heads the Political Battle
-
-<!-- As with many development problems at REI, the hardest part is political, not technical -->
+notes: |
+    - Direct management supportive
+    - Many problems, hardest part is political, not technical
+    - --
+    - Began by convincing upper-management
+    - Through director-level
+    - Talent acquisition, core value alignment (stewardship/community service)
+    - --
+    - Meet with OSL (graciously agreed)
+    - Lots of experience with the political side of OSS
+    - Concern: Liability (most OSS licences)
+    - Concern: Competitive advantage? (We're a retailer, FED code accessable to the curious)
+    - "Besides that, only advantages"
+    - Community management: Eventually, if things get popular...
+    - Already have a CI workflow, with PRs and reviews
+    - --
+    - Meet with legal
+    - Need time to research
 
 - Convince upper-management
 
-    <!--
-        - Through the director level
-
-        - Agree it aligns with REI's core values of stewardship and community service
-
-        - Green light
-    -->
-
-- Meet with the OSU Open Source Lab for guidence
-
-     <!--
-         - Gracious
-     -->
+- Meet with the OSU Open Source Lab for guidance
 
     - Legal Liability?
 
-        <!-- Most OSS licences release liability -->
-
     - Competitive advantage?
-
-        <!--
-            - Retailer
-
-            - Front-end code accessable for the curious anyway
-        -->
-
-    - Public contribution process
-
-        <!--
-            - Already use Git, Stash, Jenkins, etc.
-        -->
 
     - Community management
 
-        <!--
-            - PR guidelines
-        -->
+- Brief meeting with Legal
+
+    - "We'll get back to you"
 
 ---
 
 title: Coming Soon
 subtitle: Next Steps
+notes: |
+    - Thats as far as we got before the conference!
+    - Wanted to get further, but accepted the risk
+    - --
+    - After Legal research, present our case
+    - Motivation for "yes" unclear
+    - --
+    - Projects!
 
-- Meeting with legal and security
-
-    <!--
-        - Initial pitch
-
-        - back to us in a couple weeks
-    -->
+- Formal meeting with legal and security
 
 - Projects behind the floodgates
 
@@ -277,6 +261,9 @@ subtitle: Next Steps
 
 title: Your Turn
 subtitle: What are your experiences fighting the good fight?
+notes: |
+    - That's all I have so far
+    - Wanted to open it up to you to share your experiences
 
 - Successes?
 
