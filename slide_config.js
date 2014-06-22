@@ -17,14 +17,16 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [
+  /*
   {
     name: 'Rob McGuire-Dale',
-    title: 'Front-End Developer, REI.com',
+    title: 'Front End Software Developer, REI.com',
+    email: '&lt; rmcguir@rei.com &gt;',
     github: 'http://github.com/robatron',
     gplus: 'https://plus.google.com/+RobMcGuireDale',
     www: 'http://robmd.net'
   }
-  /*, {
+  , {
     name: 'Second Name',
     title: 'Job Title, Google',
     gplus: 'http://plus.google.com/1234567890',

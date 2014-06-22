@@ -52,7 +52,12 @@ Template file: %s
   <hgroup class="auto-fadein">
     <h1 data-config-title><!-- populated from slide_config.json --></h1>
     <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
-    <p data-config-presenter><!-- populated from slide_config.json --></p>
+    <!-- <p data-config-presenter></p> -->
+    <p>
+        Rob McGuire-Dale <br>
+        Front-End Software Developer, REI.com <br>
+        rmcguir@rei.com
+    </p>
   </hgroup>
 </slide>
 
@@ -474,15 +479,21 @@ Template file: %s
     
   </aside> -->
   <article class="flexbox vcenter auto-fadein">
-      <img src="./images/qr.png"
+      <img src="./images/qr-logo.png"
           style="
-              margin-bottom: 53.3333333px
+              height: 350px;
+              margin-bottom: 75px
           ">
     <h2>Thank You!</h2>
-    <p class="auto-fadein" data-config-contact style="
+    <!-- <p class="auto-fadein" data-config-contact style="
             line-height: 1.25;
         ">
-      <!-- populated from slide_config.json -->
+        Populated by slide_config.js
+    </p> -->
+    <p class="auto-fadein" style="
+            line-height: 1.25;
+        ">
+        http://reidev.github.io/osbridge
     </p>
   </article>
 </slide>
@@ -498,12 +509,12 @@ Template file: %s
 </slides>
 
 
-<!-- Enable livereload -->
-<script>
-    document.write(
-        '<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>'
-    );
-</script>
+    <!-- Enable livereload -->
+    <script>
+        document.write(
+            '<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>'
+        );
+    </script>
 
 
 </body>
