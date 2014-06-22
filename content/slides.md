@@ -74,61 +74,43 @@ notes: |
 ---
 
 title: Open Source Background
-
-<!-- Asked to provide OSS background -->
-
-<!-- <img style="
-    width:    250px;
-    position: absolute;
-    right:    50px;
-    top:      50px"
-  src="https://www.python.org/images/infrastructure/osl.png">
-
-<img style="
-    width:    275px;
-    position: absolute;
-    right:    50px;
-    top:      200px"
-  src="http://www.parabolicarc.com/wp-content/uploads/2009/04/boeing_logo.jpg">
-
-<img style="
-    width:    300px;
-    position: absolute;
-    right:    50px;
-    top:      350px"
-  src="http://activeinboston.com/wp-content/uploads/2013/12/REI-Logo.png"> -->
+#TODO: Build parent lists, strongify parent list titles
+notes: |
+    - @osbridge, should provide OSS background
+    - Long time supporter of OSS
+    - If software exists collectively, at the mercy of no company
+    - Freedom to hack, learn how something works
+    - --
+    - OSL: Lucky to get in
+    - Learned more about software engineering than getting a CS degree in college
+    - Principle developer on TouchScreen (kiosk), Ganeti WM (Ganeti virtual machine clusters)
+    - --
+    - Boeing: Contributed to the internal "OSS culture"
+    - Difficult to even consume OSS
+    - OSS Toolkit (provide OSS for employees), GitLab, Innovation Cell
+    - "Though efforts not public, like to think I made a difference for employees"
+    - --
+    - REI: More freedom
+    - Personal crusade to bring OSS contributions -> cooperative
+    - This presentation is part of that goal
 
 OSU Open Source Lab
 
-  <!-- Long time supporter of open source, lucky to get in -->
-
   - Cut my software engineering teeth
 
-    <!-- Learned more than in college -->
-
-  - [TouchScreen](https://code.osuosl.org/projects/touchscreen)
-
-    <!-- Kiosk Software, Outside OSL Data Center -->
-
-  - [Ganeti Web Manager](https://code.osuosl.org/projects/ganeti-webmgr)
-
-    <!-- Mange Google's Ganeti virtual machine clusters via the web -->
+  - [TouchScreen](https://code.osuosl.org/projects/touchscreen), [Ganeti Web Manager](https://code.osuosl.org/projects/ganeti-webmgr)
 
 Boeing
 
-  - Internal "GitHub" with [GitLab](https://www.gitlab.com/)
+  - "Internal Open Source"
 
-    <!-- Internal "open source" community organization -->
+  - OSS Toolkit, [GitLab](https://www.gitlab.com/), Innovation Cell
 
 REI?
 
-  <!-- Personal crusade to bring open source to the cooperative -->
-
-  - Speak at open source conferences
+  - Speak at open source conferences ;-)
 
   - Bring open source contributions to the cooperative
-
-      <!-- What I'm here to talk about -->
 
 ---
 
