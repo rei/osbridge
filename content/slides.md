@@ -43,7 +43,7 @@ title: Hats!
     position: absolute;
     right:    50px;
     top:      50px"
-  src='http://www.rei.com/media/tt/98f33c79-5ef2-4c4c-95f8-420b3b602df8.jpg'>
+  src='images/hat.jpg'>
 <!-- "Dorfman Pacific" http://www.rei.com/product/631470/dorfman-pacific-all-season-crushable-hat -->
 
 - Front End Software Developer for REI.com
