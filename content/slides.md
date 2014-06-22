@@ -1,6 +1,7 @@
 title: What's this ABOUT anyway?
-
-<!-- Start by clarifying purpose of this presentation -->
+notes: |
+    - Public affairs
+    - "The views expressed in this presentation are those of Rob McGuire-Dale, and do not necessarily reﬂect the views of REI"
 
 - A story of an on-going journey
 
@@ -8,37 +9,47 @@ title: What's this ABOUT anyway?
 
 - From one software engineer's perspective
 
-    <!-- Public Affairs: My experiences/opinion, not necessarily REI's -->
-
 ---
 
 title: What is this presentation NOT
-
-<!-- 
-    - Start by setting expectations 
-    
+notes: |
+    - Start by setting expectations
+    - --
+    - Not an instruction manual
+    - Not a story with a conclusion, ongoing journey
+    - --
+    - Short!
     - "If you didn't see it in the presentation description..."
--->
+    - Wheels of bureaucracy turn slowly
+    - Open it up to share your stories, successes, challenges, advice, etc.
 
 - An instruction manual
 
-    <!-- ...for convincing your organization for open source contributions -->
-
 - A story with a conclusion
 
-    <!-- ongoing discussion -->
-
 - Very long :(
-
-    <!--
-        - Wheels of bureaucracy turn slowly
-
-        - Open it up to you all to share your stories (successes, challenges)
-    -->
 
 ---
 
 title: Hats!
+notes: |
+    - Front End Software Developer for REI.com
+    - Among ~40 software developers, SDETs, and manual testers
+    - --
+    - DevOps, platform: "Front-End of the Back End"
+    - Unique FED: Dislike display layer, love accessibility/ubiquity + being close to the user
+    - --
+    - Build system: dependency management, modularity, unit testing
+    - Thing that have existed in most programming languages since the 60s
+    - "Front-end languages almost like a real programming language!"
+    - --
+    - Visualization: Code stability, coverage, performance
+    - --
+    - "Maybe you don't need jQuery on EVERY PAGE"
+    - --
+    - Hiring: Interview exercise, not just code skills
+    - Software engineering skills (commit const), prioritization under time constraints, etc
+    - "Let ME in, had to raise the bar"
 
 <img
   style="
@@ -47,41 +58,18 @@ title: Hats!
     right:    50px;
     top:      50px"
   src='images/hat.jpg'>
-<!-- "Dorfman Pacific" http://www.rei.com/product/631470/dorfman-pacific-all-season-crushable-hat -->
 
 - Front End Software Developer for REI.com
 
-    <!-- Surprisingly mature: Among ~40 software developers, SDETS, manual testers -->
-
-- "Back End of the Front End"
-
-    <!-- Unique: Don't like display layer, love accessibility + being close to the user -->
-
 - Platform Team, DevOps
-
-    <!-- Bring software engineering + comp. sci. to the front-end -->
 
   - Build System ( Node.js + NPM + gulp )
 
-      <!-- Dependency management, modularity, unit testing "Almost like a real programming environment!" -->
-
   - Statistics, Visualization, Dashboarding
-
-      <!-- Code stability, unit test coverage, performance -->
 
   - Architecture and Frameworks
 
-      <!-- Maybe you don't need jQuery there -->
-
 - Hiring
-
-    <!--
-      Interview exercise, not only code skills,
-
-      candidate's software engineering skills, commit messages
-
-      (Let me in, had to raise the bar)
-    -->
 
 ---
 
