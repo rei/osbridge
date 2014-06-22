@@ -1,5 +1,4 @@
 title: What's this ABOUT anyway?
-# build_lists: true
 
 <!-- Start by clarifying purpose of this presentation -->
 
