@@ -115,53 +115,40 @@ REI?
 ---
 
 title: The Journey Begins
-subtitle: OSS-Savvy Engineers + Supportive Management
+subtitle: Software Engineer Motivation
+build_lists: true
+notes: |
+    - Started with OSS-savvy engineers, who believe as we do
+    - REI history proprietary software, company dependence part of the business model
+    - Adobe worst offender: Purposefully crippled software and documentation so we pay for "training"
+    - --
+    - Infrastructure runs on OSS: Java, Jenkins, Apache, Maven, Node + hundreds of other libraries and tools
+    - --
+    - Hippy reasons: Passionate people who want to give back
+    - Culture of environmental stewardship / community service extends -> software
+    - --
+    - "given enough eyeballs, all bugs are shallow" - Linus's Law
+    - Need to find/fix bugs anyway, better to find them sooner
+    - Write higher quality code if know your name is publicly attached to it
+    - --
+    - Let communiy hack!
+    - Engineers are busy, don't have time do do everything we want
+    - "What can the public come up with given these APIs?"
+    - --
+    - More selfish reasons...
+    - Reputation. "Oh, you're just a WEB DEV who works on a WEB SITE" feel like I have to defend my honor
+    - Attracting devs: Many devs don't know REI develops its own software.
+    - We want to play! Want to participate
 
-<!--
-    - OSS - savvy engineers
+- Open source software runs our infrastructure
 
-    - Been working with the OSS community for many years
--->
+- We're a culture of tree-huggers that want to give back
 
-- We depend on open source; It runs our infrastructure.
-
-    <!-- Java, Jenkins, Apache, Maven, Node + hundreds of other libraries and tools -->
-
-- We want to give back
-
-    <!--
-        - Hippy reasons: Passionate people
-
-        - Culture of environmental stewardship and community service (extend -> software)
-    -->
-
-- Increase code quality
-
-    <!--
-        - "given enough eyeballs, all bugs are shallow" - Linus's Law (need to find/fix bugs anyway, better to find them sooner)
-
-        - Higher quality code if know your name is publicly attached to it
-    -->
+- Want to increase code quality
 
 - Let community hack and remix
 
-    <!--
-        - Engineers are busy
-
-        - What can the public come up with given these APIs?
-    -->
-
 - Dev cred
-
-    <!--
-        - More selfish reasons...
-
-        - Reputation. "Oh, you're a WEB DEV" feel like I have to defend my honor
-
-        - Attracting devs. (Many devs don't know REI develops its own software.)
-
-        - We want to play!
-    -->
 
 ---
 
