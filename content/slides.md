@@ -1,7 +1,7 @@
 title: What's this ABOUT anyway?
 notes: |
     - Public affairs
-    - "The views expressed in this presentation are those of Rob McGuire-Dale, and do not necessarily reﬂect the views of REI"
+    - "The views expressed in this presentation are those of me, personally, and do not necessarily reﬂect the views of REI"
 
 - A story of an on-going journey
 
@@ -36,16 +36,20 @@ notes: |
     - Front End Software Developer for REI.com
     - Among ~40 software developers, SDETs, and manual testers
     - --
-    - DevOps, platform: "Front-End of the Back End"
+    - Platform / DevOps: "Front-End of the Back End"
     - Unique FED: Dislike display layer, love accessibility/ubiquity + being close to the user
     - --
-    - Build system: dependency management, modularity, unit testing
-    - Thing that have existed in most programming languages since the 60s
-    - "Front-end languages almost like a real programming language!"
+    - Build system
+    - "Help the FEDS have things that have existed in most programming languages since the 60s"
+    - Dependency management, modularity, unit testing, none of which
+    - "You could say I help front-end languages almost like a real programming language!"
     - --
     - Visualization: Code stability, coverage, performance
+    - Measure how changes affect codebase
     - --
     - "Maybe you don't need jQuery on EVERY PAGE"
+    - "Front-end is hard because front-end is easy (to do whatever)"
+    - My job to inject CS principles and engineering
     - --
     - Hiring: Interview exercise, not just code skills
     - Software engineering skills (commit const), prioritization under time constraints, etc
@@ -67,7 +71,7 @@ notes: |
 
   - Statistics, Visualization, Dashboarding
 
-  - Architecture and Frameworks
+  - Organization, architecture, frameworks
 
 - Hiring
 
@@ -94,7 +98,7 @@ notes: |
     - Personal crusade to bring OSS contributions -> cooperative
     - This presentation is part of that goal
 
-OSU Open Source Lab
+[OSU Open Source Lab](http://osuosl.org/)
 
   - Cut my software engineering teeth
 
@@ -116,7 +120,6 @@ REI?
 
 title: The Journey Begins
 subtitle: Software Engineer Motivation
-build_lists: true
 notes: |
     - Started with OSS-savvy engineers, who believe as we do
     - REI history proprietary software, company dependence part of the business model
@@ -174,6 +177,8 @@ notes: |
 
 - Engineering blog
 
+- Helped shape our approach
+
 ---
 
 title: Into the Shadow
@@ -193,7 +198,7 @@ notes: |
 
 - Code style guides ([JS](https://github.com/reidev/js-style-guide), [HTML](https://github.com/reidev/markup-style-guide), [CSS](https://github.com/reidev/stylesheet-style-guide))
 
-- Upstream patches ([Istanbul](https://github.com/reidev/istanbul))
+- Upstream patches ([Istanbul](https://github.com/reidev/istanbul), NPM, Nexus, Maven, etc.)
 
 - Personal projects ([gulp-chug](https://github.com/robatron/gulp-chug))
 
@@ -208,6 +213,7 @@ notes: |
     - Began by convincing upper-management
     - Through director-level
     - Talent acquisition, core value alignment (stewardship/community service)
+    - Go for it! Just convince gatekeepers (legal, security, etc.)
     - --
     - Meet with OSL (graciously agreed)
     - Lots of experience with the political side of OSS
@@ -241,11 +247,13 @@ subtitle: Next Steps
 notes: |
     - Thats as far as we got before the conference!
     - Wanted to get further, but accepted the risk
+    - Figured it might be helpful to others, network
     - --
     - After Legal research, present our case
     - Motivation for "yes" unclear
     - --
     - Projects!
+    - Actively writing projects in an OSS way
 
 - Formal meeting with legal and security
 
@@ -263,7 +271,7 @@ title: Your Turn
 subtitle: What are your experiences fighting the good fight?
 notes: |
     - That's all I have so far
-    - Wanted to open it up to you to share your experiences
+    - Wanted to take this time to open it up to you to share your experiences
 
 - Successes?
 
