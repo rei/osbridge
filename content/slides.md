@@ -1,6 +1,6 @@
 title: What's this ABOUT anyway?
 notes: |
-    - Public affairs
+    - Public affairs would like me to say something to the effect of...
     - "The views expressed in this presentation are those of me, personally, and do not necessarily reﬂect the views of REI"
 
 - A story of an on-going journey
@@ -15,13 +15,15 @@ title: What is this presentation NOT
 notes: |
     - Start by setting expectations
     - --
-    - Not an instruction manual
+    - Not an instruction manual, NOR
     - Not a story with a conclusion, ongoing journey
     - --
     - Short!
     - "If you didn't see it in the presentation description..."
+    - Didn't get as far as I would have liked before the conference
     - Wheels of bureaucracy turn slowly
-    - Open it up to share your stories, successes, challenges, advice, etc.
+    - Open up to share journeys implementing open source at your organizations
+    - Successes, challenges, advice, etc.
 
 - An instruction manual
 
@@ -80,18 +82,22 @@ notes: |
 title: Open Source Background
 #TODO: Build parent lists, strongify parent list titles
 notes: |
-    - @osbridge, should provide OSS background
+    - Since I'm @osbridge, figured I should tell you a little re: OSS background
     - Long time supporter of OSS
-    - If software exists collectively, at the mercy of no company
-    - Freedom to hack, learn how something works
+    - Personally, I hate the idea of being at the mercy of a for-profit company
+    - "I say that as I'm presenting from a MacBook..."
+    - I love the freedom to hack, learn how something works
     - --
-    - OSL: Lucky to get in
-    - Learned more about software engineering than getting a CS degree in college
-    - Principle developer on TouchScreen (kiosk), Ganeti WM (Ganeti virtual machine clusters)
+    - OSL
+    - "How many of you are familiar with the OSL?"
+    - Great org, lucky to get in
+    - Learned more about software engineering than getting a CS degree
+    - Principle developer on TouchScreen (HTML5, Kiosk), Ganeti Web Manager (Ganeti virtual machine cluster management)
     - --
     - Boeing: Contributed to the internal "OSS culture"
     - Difficult to even consume OSS
-    - OSS Toolkit (provide OSS for employees), GitLab, Innovation Cell
+    - OSS Toolkit (provide OSS for employees)
+    - GitLab (OSS development methodologies)
     - "Though efforts not public, like to think I made a difference for employees"
     - --
     - REI: More freedom
@@ -108,7 +114,7 @@ Boeing
 
   - "Internal Open Source"
 
-  - OSS Toolkit, [GitLab](https://www.gitlab.com/), Innovation Cell
+  - OSS Toolkit, [GitLab](https://www.gitlab.com/)
 
 REI?
 
@@ -155,6 +161,29 @@ notes: |
 
 ---
 
+title: Into the Shadow
+subtitle: Covert OSS Community
+notes: |
+    - Needed something NOW while we waited
+    - Start with style guides (AirBnB)
+    - Documentation (re: style guide) deemed innocuous by management
+    - --
+    - Upstream patches
+    - Istanbul (code coverage), NPM, Nexus, Maven
+    - --
+    - Loophole: Personal projects
+    - REI all about privacy ("none of business")
+
+- [github.com/reidev](https://github.com/reidev)
+
+- Code style guides ([JS](https://github.com/reidev/js-style-guide), [HTML](https://github.com/reidev/markup-style-guide), [CSS](https://github.com/reidev/stylesheet-style-guide))
+
+- Upstream patches ([Istanbul](https://github.com/reidev/istanbul), NPM, Nexus, Maven, etc.)
+
+- Personal projects ([gulp-chug](https://github.com/robatron/gulp-chug))
+
+---
+
 title: Archeological Evidence
 subtitle: Ghosts of the past
 notes: |
@@ -178,29 +207,6 @@ notes: |
 - Engineering blog
 
 - Helped shape our approach
-
----
-
-title: Into the Shadow
-subtitle: Covert OSS Community
-notes: |
-    - Needed something NOW while we waited
-    - Start with style guides (AirBnB)
-    - Documentation (re: style guide) deemed innocuous by management
-    - --
-    - Upstream patches
-    - Istanbul (code coverage), NPM, Nexus, Maven
-    - --
-    - Loophole: Personal projects
-    - REI all about privacy ("none of business")
-
-- [github.com/reidev](https://github.com/reidev)
-
-- Code style guides ([JS](https://github.com/reidev/js-style-guide), [HTML](https://github.com/reidev/markup-style-guide), [CSS](https://github.com/reidev/stylesheet-style-guide))
-
-- Upstream patches ([Istanbul](https://github.com/reidev/istanbul), NPM, Nexus, Maven, etc.)
-
-- Personal projects ([gulp-chug](https://github.com/robatron/gulp-chug))
 
 ---
 
